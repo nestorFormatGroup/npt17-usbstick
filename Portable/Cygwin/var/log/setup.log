@@ -1,0 +1,612 @@
+2017/03/22 09:19:54 Starting cygwin install, version 2.877
+2017/03/22 09:19:54 User has backup/restore rights
+2017/03/22 09:19:54 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2017/03/22 09:19:54 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 09:19:54 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 09:19:58 source: network install
+2017/03/22 09:19:59 root: H:\Portable\Cygwin system
+2017/03/22 09:20:00 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 09:20:00 net: Direct
+2017/03/22 09:20:04 site: http://cygwin.mirror.constant.com/
+2017/03/22 09:20:06 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2017/03/22 09:20:36 Adding required dependency bzip2: Selecting version 1.0.6-3 for installation.
+2017/03/22 09:20:36 Adding required dependency ca-certificates: Selecting version 2.11-1 for installation.
+2017/03/22 09:20:36 Adding required dependency groff: Selecting version 1.22.3-1 for installation.
+2017/03/22 09:20:36 Adding required dependency less: Selecting version 481-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libargp: Selecting version 20110921-3 for installation.
+2017/03/22 09:20:36 Adding required dependency libattr1: Selecting version 2.4.46-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libblkid1: Selecting version 2.25.2-2 for installation.
+2017/03/22 09:20:36 Adding required dependency libbz2_1: Selecting version 1.0.6-3 for installation.
+2017/03/22 09:20:36 Adding required dependency libffi6: Selecting version 3.2.1-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libgcc1: Selecting version 5.4.0-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libgdbm4: Selecting version 1.12-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libgmp10: Selecting version 6.1.2-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
+2017/03/22 09:20:36 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
+2017/03/22 09:20:36 Adding required dependency libintl8: Selecting version 0.19.8.1-2 for installation.
+2017/03/22 09:20:36 Adding required dependency liblzma5: Selecting version 5.2.2-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libmpfr4: Selecting version 3.1.5-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libncursesw10: Selecting version 6.0-9.20170121 for installation.
+2017/03/22 09:20:36 Adding required dependency libp11-kit0: Selecting version 0.22.1-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libpcre1: Selecting version 8.40-2 for installation.
+2017/03/22 09:20:36 Adding required dependency libpipeline1: Selecting version 1.4.0-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libpopt-common: Selecting version 1.16-2 for installation.
+2017/03/22 09:20:36 Adding required dependency libpopt0: Selecting version 1.16-2 for installation.
+2017/03/22 09:20:36 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
+2017/03/22 09:20:36 Adding required dependency libsmartcols1: Selecting version 2.25.2-2 for installation.
+2017/03/22 09:20:36 Adding required dependency libssp0: Selecting version 5.4.0-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libstdc++6: Selecting version 5.4.0-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libtasn1_6: Selecting version 4.9-1 for installation.
+2017/03/22 09:20:36 Adding required dependency libuuid1: Selecting version 2.25.2-2 for installation.
+2017/03/22 09:20:36 Adding required dependency p11-kit: Selecting version 0.22.1-1 for installation.
+2017/03/22 09:20:36 Adding required dependency p11-kit-trust: Selecting version 0.22.1-1 for installation.
+2017/03/22 09:20:36 Adding required dependency tzcode: Selecting version 2017a-1 for installation.
+2017/03/22 09:20:36 Adding required dependency xz: Selecting version 5.2.2-1 for installation.
+2017/03/22 09:20:36 Adding required dependency zlib0: Selecting version 1.2.8-3 for installation.
+2017/03/22 09:20:47 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001004-1.tar.xz
+2017/03/22 09:20:48 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2017/03/22 09:20:56 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2017/03/22 09:20:56 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
+2017/03/22 09:21:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/bash/bash-4.4.12-3.tar.xz
+2017/03/22 09:21:27 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/bzip2/bzip2-1.0.6-3.tar.xz
+2017/03/22 09:21:29 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.11-1.tar.xz
+2017/03/22 09:21:32 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/coreutils/coreutils-8.26-2.tar.xz
+2017/03/22 09:22:40 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cygutils/cygutils-1.4.15-2.tar.xz
+2017/03/22 09:22:42 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cygwin/cygwin-2.7.0-1.tar.xz
+2017/03/22 09:22:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/dash/dash-0.5.9.1-1.tar.xz
+2017/03/22 09:22:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/diffutils/diffutils-3.5-2.tar.xz
+2017/03/22 09:22:59 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/editrights/editrights-1.03-1.tar.xz
+2017/03/22 09:23:00 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/file/file-5.25-1.tar.xz
+2017/03/22 09:23:04 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/findutils/findutils-4.6.0-1.tar.xz
+2017/03/22 09:23:25 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gawk/gawk-4.1.4-3.tar.xz
+2017/03/22 09:23:41 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/getent/getent-2.18.90-4.tar.xz
+2017/03/22 09:23:42 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/grep/grep-3.0-2.tar.xz
+2017/03/22 09:23:50 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/groff/groff-1.22.3-1.tar.xz
+2017/03/22 09:25:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gzip/gzip-1.8-1.tar.xz
+2017/03/22 09:25:06 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/hostname/hostname-3.13-1.tar.bz2
+2017/03/22 09:25:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/texinfo/info/info-6.1-2.tar.xz
+2017/03/22 09:25:17 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ipc-utils/ipc-utils-1.0-1.tar.bz2
+2017/03/22 09:25:17 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/less/less-481-1.tar.xz
+2017/03/22 09:25:19 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libargp/libargp-20110921-3.tar.xz
+2017/03/22 09:25:19 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/attr/libattr1/libattr1-2.4.46-1.tar.bz2
+2017/03/22 09:25:19 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/util-linux/libblkid1/libblkid1-2.25.2-2.tar.xz
+2017/03/22 09:25:19 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/bzip2/libbz2_1/libbz2_1-1.0.6-3.tar.xz
+2017/03/22 09:25:19 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libffi/libffi6/libffi6-3.2.1-1.tar.xz
+2017/03/22 09:25:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gcc/libgcc1/libgcc1-5.4.0-1.tar.xz
+2017/03/22 09:25:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gdbm/libgdbm4/libgdbm4-1.12-1.tar.xz
+2017/03/22 09:25:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2017/03/22 09:25:21 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libiconv/libiconv-1.14-3.tar.xz
+2017/03/22 09:25:26 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2017/03/22 09:25:26 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2017/03/22 09:25:27 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/xz/liblzma5/liblzma5-5.2.2-1.tar.xz
+2017/03/22 09:25:27 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mpfr/libmpfr4/libmpfr4-3.1.5-1.tar.xz
+2017/03/22 09:25:27 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ncurses/libncursesw10/libncursesw10-6.0-9.20170121.tar.xz
+2017/03/22 09:25:28 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/openssl/libopenssl100/libopenssl100-1.0.2k-1.tar.xz
+2017/03/22 09:25:30 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/p11-kit/libp11-kit0/libp11-kit0-0.22.1-1.tar.xz
+2017/03/22 09:25:31 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pcre/libpcre1/libpcre1-8.40-2.tar.xz
+2017/03/22 09:25:31 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2017/03/22 09:25:31 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2017/03/22 09:25:35 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2017/03/22 09:25:35 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2017/03/22 09:25:36 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2017/03/22 09:25:36 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/util-linux/libsmartcols1/libsmartcols1-2.25.2-2.tar.xz
+2017/03/22 09:25:37 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gcc/libssp0/libssp0-5.4.0-1.tar.xz
+2017/03/22 09:25:37 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gcc/libstdc++6/libstdc++6-5.4.0-1.tar.xz
+2017/03/22 09:25:38 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libtasn1/libtasn1_6/libtasn1_6-4.9-1.tar.xz
+2017/03/22 09:25:38 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/util-linux/libuuid1/libuuid1-2.25.2-2.tar.xz
+2017/03/22 09:25:38 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/login/login-1.11-1.tar.xz
+2017/03/22 09:25:40 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/man-db/man-db-2.7.5-2.tar.xz
+2017/03/22 09:26:22 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mintty/mintty-2.7.5-0.tar.xz
+2017/03/22 09:26:26 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ncurses/ncurses-6.0-9.20170121.tar.xz
+2017/03/22 09:26:29 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/openssl/openssl-1.0.2k-1.tar.xz
+2017/03/22 09:26:40 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/p11-kit/p11-kit-0.22.1-1.tar.xz
+2017/03/22 09:26:42 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/p11-kit/p11-kit-trust/p11-kit-trust-0.22.1-1.tar.xz
+2017/03/22 09:26:42 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/rebase/rebase-4.4.2-1.tar.xz
+2017/03/22 09:26:44 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/run/run-1.3.4-2.tar.xz
+2017/03/22 09:26:46 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/sed/sed-4.4-1.tar.xz
+2017/03/22 09:26:57 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tar/tar-1.29-1.tar.xz
+2017/03/22 09:27:14 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ncurses/terminfo/terminfo-6.0-9.20170121.tar.xz
+2017/03/22 09:27:47 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tzcode/tzcode-2017a-1.tar.xz
+2017/03/22 09:27:51 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2017a-1.tar.xz
+2017/03/22 09:30:33 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/util-linux/util-linux-2.25.2-2.tar.xz
+2017/03/22 09:30:43 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/vim-minimal/vim-minimal-8.0.0329-1.tar.xz
+2017/03/22 09:30:49 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/which/which-2.20-2.tar.bz2
+2017/03/22 09:30:49 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/xz/xz-5.2.2-1.tar.xz
+2017/03/22 09:30:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/zlib/zlib0/zlib0-1.2.8-3.tar.xz
+2017/03/22 09:30:53 Changing gid back to original
+2017/03/22 09:30:53 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/03/22 09:30:59 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/03/22 09:31:03 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2017/03/22 09:31:03 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2017/03/22 09:31:04 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2017/03/22 09:31:05 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2017/03/22 09:31:06 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2017/03/22 09:31:12 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2017/03/22 09:31:15 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2017/03/22 09:31:15 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2017/03/22 09:31:16 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/03/22 09:31:16 Changing gid to Administrators
+2017/03/22 09:44:36 note: Installation Complete
+2017/03/22 09:44:36 Ending cygwin install
+2017/03/22 09:49:59 Starting cygwin install, version 2.877
+2017/03/22 09:49:59 User has backup/restore rights
+2017/03/22 09:49:59 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 09:49:59 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 09:50:03 source: network install
+2017/03/22 09:50:04 root: H:\Portable\Cygwin system
+2017/03/22 09:50:05 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 09:50:06 net: Direct
+2017/03/22 09:50:09 site: http://cygwin.mirror.constant.com/
+2017/03/22 10:24:51 Adding required dependency dejavu-fonts: Selecting version 2.37-1 for installation.
+2017/03/22 10:24:51 Adding required dependency desktop-file-utils: Selecting version 0.23-1 for installation.
+2017/03/22 10:24:51 Adding required dependency dri-drivers: Selecting version 13.0.5-1 for installation.
+2017/03/22 10:24:51 Adding required dependency gamin: Selecting version 0.1.10-15 for installation.
+2017/03/22 10:24:51 Adding required dependency gsettings-desktop-schemas: Selecting version 3.18.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libautotrace3: Selecting version 0.31.1-17 for installation.
+2017/03/22 10:24:51 Adding required dependency libcairo2: Selecting version 1.14.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libcom_err2: Selecting version 1.42.12-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libcroco0.6_3: Selecting version 0.6.11-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libcrypt0: Selecting version 1.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libcurl4: Selecting version 7.52.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libdatrie1: Selecting version 0.2.8-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libdb4.8: Selecting version 4.8.30-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libEGL1: Selecting version 13.0.5-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libEMF1: Selecting version 1.0.8-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libexif12: Selecting version 0.6.21-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libexiv2_14: Selecting version 0.25-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libexpat1: Selecting version 2.2.0-0 for installation.
+2017/03/22 10:24:51 Adding required dependency libfam0: Selecting version 0.1.10-15 for installation.
+2017/03/22 10:24:51 Adding required dependency libfftw3_3: Selecting version 3.3.6-pl1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libfontconfig-common: Selecting version 2.12.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libfontconfig1: Selecting version 2.12.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libfpx1: Selecting version 1.3.1.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libfreetype6: Selecting version 2.6.5-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libgd3: Selecting version 2.2.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libgdk_pixbuf2.0_0: Selecting version 2.32.3-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libgif4: Selecting version 4.1.6-10 for installation.
+2017/03/22 10:24:51 Adding required dependency libGL1: Selecting version 13.0.5-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libglapi0: Selecting version 13.0.5-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libglib2.0_0: Selecting version 2.46.2-4 for installation.
+2017/03/22 10:24:51 Adding required dependency libgomp1: Selecting version 5.4.0-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libgraphite2_3: Selecting version 1.3.8-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libgs9: Selecting version 9.19-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libgssapi_krb5_2: Selecting version 1.14.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libharfbuzz0: Selecting version 1.3.3-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libICE6: Selecting version 1.0.9-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libidn11: Selecting version 1.29-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libidn2_0: Selecting version 0.11-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libjasper1: Selecting version 1.900.22-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libjbig2: Selecting version 2.0-14 for installation.
+2017/03/22 10:24:51 Adding required dependency libjpeg8: Selecting version 1.5.0-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libk5crypto3: Selecting version 1.14.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libkrb5support0: Selecting version 1.14.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libkrb5_3: Selecting version 1.14.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency liblcms2_2: Selecting version 2.8-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libllvm3.8: Selecting version 3.8.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libllvm3.9: Selecting version 3.9.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency liblzo2_2: Selecting version 2.08-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libMagickC++6_6: Selecting version 6.9.5.7-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libMagickCore6_2: Selecting version 6.9.5.7-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libMagickWand6_2: Selecting version 6.9.5.7-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libmediainfo0: Selecting version 0.7.91-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libming1: Selecting version 0.4.7-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libmspack0: Selecting version 0.5-0.1.alpha for installation.
+2017/03/22 10:24:51 Adding required dependency libnghttp2_14: Selecting version 1.14.0-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libopenldap2_4_2: Selecting version 2.4.42-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libpango1.0_0: Selecting version 1.38.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libpaper-common: Selecting version 1.1.24-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libpaper1: Selecting version 1.1.24-2 for installation.
+2017/03/22 10:24:51 Adding required dependency libpixman1_0: Selecting version 0.34.0-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libplotter2: Selecting version 2.6-5 for installation.
+2017/03/22 10:24:51 Adding required dependency libpng16: Selecting version 1.6.28-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libpsl5: Selecting version 0.17.0-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libpstoedit0: Selecting version 3.70-2 for installation.
+2017/03/22 10:24:51 Adding required dependency librsvg2_2: Selecting version 2.40.11-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libsasl2_3: Selecting version 2.1.26-9 for installation.
+2017/03/22 10:24:51 Adding required dependency libSM6: Selecting version 1.2.2-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libssh2_1: Selecting version 1.7.0-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libthai0: Selecting version 0.1.21-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libtiff6: Selecting version 4.0.6-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libtinyxml2_4: Selecting version 4.0.1-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libtxc_dxtn: Selecting version 1.0-1.20151227gitf6ec862 for installation.
+2017/03/22 10:24:51 Adding required dependency libunistring2: Selecting version 0.9.6-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libwebp5: Selecting version 0.4.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libX11-xcb1: Selecting version 1.6.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libX11_6: Selecting version 1.6.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXau6: Selecting version 1.0.8-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXaw7: Selecting version 1.0.13-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libxcb-glx0: Selecting version 1.12-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libxcb-render0: Selecting version 1.12-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libxcb-shm0: Selecting version 1.12-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libxcb1: Selecting version 1.12-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXdmcp6: Selecting version 1.1.2-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXext6: Selecting version 1.3.3-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXft2: Selecting version 2.3.2-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libxml2: Selecting version 2.9.4-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXmu6: Selecting version 1.1.2-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXpm4: Selecting version 3.5.12-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXrender1: Selecting version 0.9.9-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libXt6: Selecting version 1.1.5-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libzen0: Selecting version 0.4.34-1 for installation.
+2017/03/22 10:24:51 Adding required dependency libzip2: Selecting version 0.11.2-2 for installation.
+2017/03/22 10:24:51 Adding required dependency publicsuffix-list-dafsa: Selecting version 20170206-1 for installation.
+2017/03/22 10:24:51 Adding required dependency shared-mime-info: Selecting version 1.7-1 for installation.
+2017/03/22 10:24:51 Adding required dependency vim-common: Selecting version 8.0.0329-1 for installation.
+2017/03/22 10:24:51 Adding required dependency xxd: Selecting version 8.0.0329-1 for installation.
+2017/03/22 10:24:52 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/ImageMagick-6.9.5.7-2.tar.xz
+2017/03/22 10:24:53 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/arj/arj-3.10.22-3.tar.xz
+2017/03/22 10:24:54 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cabextract/cabextract-1.6-1.tar.xz
+2017/03/22 10:24:54 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ddrescue/ddrescue-1.22-1.tar.xz
+2017/03/22 10:24:58 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/dejavu-fonts/dejavu-fonts-2.37-1.tar.xz
+2017/03/22 10:24:58 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/desktop-file-utils/desktop-file-utils-0.23-1.tar.xz
+2017/03/22 10:25:00 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/dos2unix/dos2unix-7.3.4-1.tar.xz
+2017/03/22 10:25:08 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/dri-drivers/dri-drivers-13.0.5-1.tar.xz
+2017/03/22 10:25:09 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/exif/exif-0.6.21-1.tar.bz2
+2017/03/22 10:25:11 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/exiv2/exiv2-0.25-2.tar.xz
+2017/03/22 10:25:12 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/figlet/figlet-2.2.2-2.tar.bz2
+2017/03/22 10:25:13 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gamin/gamin-0.1.10-15.tar.xz
+2017/03/22 10:25:14 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.18.1-1.tar.xz
+2017/03/22 10:25:15 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libjpeg-turbo/jpeg/jpeg-1.5.0-1.tar.xz
+2017/03/22 10:25:16 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/libEGL1/libEGL1-13.0.5-1.tar.xz
+2017/03/22 10:25:16 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libEMF/libEMF1/libEMF1-1.0.8-1.tar.xz
+2017/03/22 10:25:17 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/libGL1/libGL1-13.0.5-1.tar.xz
+2017/03/22 10:25:18 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libICE/libICE6/libICE6-1.0.9-1.tar.xz
+2017/03/22 10:25:19 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/libMagickC++6_6/libMagickC++6_6-6.9.5.7-2.tar.xz
+2017/03/22 10:25:22 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/libMagickCore6_2/libMagickCore6_2-6.9.5.7-2.tar.xz
+2017/03/22 10:25:23 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/libMagickWand6_2/libMagickWand6_2-6.9.5.7-2.tar.xz
+2017/03/22 10:25:24 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libSM/libSM6/libSM6-1.2.2-1.tar.xz
+2017/03/22 10:25:24 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libX11/libX11-xcb1/libX11-xcb1-1.6.4-1.tar.xz
+2017/03/22 10:25:26 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libX11/libX11_6/libX11_6-1.6.4-1.tar.xz
+2017/03/22 10:25:26 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXau/libXau6/libXau6-1.0.8-1.tar.bz2
+2017/03/22 10:25:28 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXaw/libXaw7/libXaw7-1.0.13-1.tar.xz
+2017/03/22 10:25:28 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXdmcp/libXdmcp6/libXdmcp6-1.1.2-1.tar.xz
+2017/03/22 10:25:30 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXext/libXext6/libXext6-1.3.3-1.tar.xz
+2017/03/22 10:25:31 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXft/libXft2/libXft2-2.3.2-1.tar.xz
+2017/03/22 10:25:33 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXmu/libXmu6/libXmu6-1.1.2-1.tar.xz
+2017/03/22 10:25:34 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXpm/libXpm4/libXpm4-3.5.12-1.tar.xz
+2017/03/22 10:25:34 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXrender/libXrender1/libXrender1-0.9.9-1.tar.xz
+2017/03/22 10:25:36 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXt/libXt6/libXt6-1.1.5-1.tar.xz
+2017/03/22 10:25:37 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/autotrace/libautotrace3/libautotrace3-0.31.1-17.tar.xz
+2017/03/22 10:25:39 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cairo/libcairo2/libcairo2-1.14.4-1.tar.xz
+2017/03/22 10:25:39 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/e2fsprogs/libcom_err2/libcom_err2-1.42.12-2.tar.xz
+2017/03/22 10:25:40 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libcroco0.6/libcroco0.6_3/libcroco0.6_3-0.6.11-1.tar.xz
+2017/03/22 10:25:40 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/crypt/libcrypt0/libcrypt0-1.4-1.tar.xz
+2017/03/22 10:25:41 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/curl/libcurl4/libcurl4-7.52.1-1.tar.xz
+2017/03/22 10:25:42 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libdatrie/libdatrie1/libdatrie1-0.2.8-1.tar.xz
+2017/03/22 10:25:43 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/db4.8/libdb4.8/libdb4.8-4.8.30-1.tar.bz2
+2017/03/22 10:25:44 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2017/03/22 10:25:46 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libexif/libexif12/libexif12-0.6.21-1.tar.bz2
+2017/03/22 10:25:48 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/exiv2/libexiv2_14/libexiv2_14-0.25-2.tar.xz
+2017/03/22 10:25:48 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/expat/libexpat1/libexpat1-2.2.0-0.tar.xz
+2017/03/22 10:25:49 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gamin/libfam0/libfam0-0.1.10-15.tar.xz
+2017/03/22 10:25:51 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/fftw3/libfftw3_3/libfftw3_3-3.3.6-pl1-1.tar.xz
+2017/03/22 10:25:52 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/fontconfig/libfontconfig-common/libfontconfig-common-2.12.1-1.tar.xz
+2017/03/22 10:25:53 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/fontconfig/libfontconfig1/libfontconfig1-2.12.1-1.tar.xz
+2017/03/22 10:25:54 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libfpx/libfpx1/libfpx1-1.3.1.4-1.tar.xz
+2017/03/22 10:25:56 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/freetype2/libfreetype6/libfreetype6-2.6.5-1.tar.xz
+2017/03/22 10:25:57 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gd/libgd3/libgd3-2.2.4-1.tar.xz
+2017/03/22 10:25:58 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gdk-pixbuf2.0/libgdk_pixbuf2.0_0/libgdk_pixbuf2.0_0-2.32.3-1.tar.xz
+2017/03/22 10:25:59 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/giflib/libgif4/libgif4-4.1.6-10.tar.bz2
+2017/03/22 10:25:59 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/libglapi0/libglapi0-13.0.5-1.tar.xz
+2017/03/22 10:26:04 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/glib2.0/libglib2.0_0/libglib2.0_0-2.46.2-4.tar.xz
+2017/03/22 10:26:04 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gcc/libgomp1/libgomp1-5.4.0-1.tar.xz
+2017/03/22 10:26:05 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/graphite2/libgraphite2_3/libgraphite2_3-1.3.8-1.tar.xz
+2017/03/22 10:26:08 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ghostscript/libgs9/libgs9-9.19-1.tar.xz
+2017/03/22 10:26:11 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.14.4-1.tar.xz
+2017/03/22 10:26:12 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/harfbuzz/libharfbuzz0/libharfbuzz0-1.3.3-1.tar.xz
+2017/03/22 10:26:13 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libidn/libidn11/libidn11-1.29-1.tar.xz
+2017/03/22 10:26:14 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libidn2/libidn2_0/libidn2_0-0.11-1.tar.xz
+2017/03/22 10:26:15 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/jasper/libjasper1/libjasper1-1.900.22-1.tar.xz
+2017/03/22 10:26:16 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/jbigkit/libjbig2/libjbig2-2.0-14.tar.xz
+2017/03/22 10:26:17 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libjpeg-turbo/libjpeg8/libjpeg8-1.5.0-1.tar.xz
+2017/03/22 10:26:17 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libk5crypto3/libk5crypto3-1.14.4-1.tar.xz
+2017/03/22 10:26:18 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libkrb5_3/libkrb5_3-1.14.4-1.tar.xz
+2017/03/22 10:26:19 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libkrb5support0/libkrb5support0-1.14.4-1.tar.xz
+2017/03/22 10:26:20 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/lcms2/liblcms2_2/liblcms2_2-2.8-1.tar.xz
+2017/03/22 10:26:28 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/llvm/libllvm3.8/libllvm3.8-3.8.1-1.tar.xz
+2017/03/22 10:26:37 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/llvm/libllvm3.9/libllvm3.9-3.9.1-1.tar.xz
+2017/03/22 10:26:38 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/liblzo2/liblzo2_2/liblzo2_2-2.08-1.tar.xz
+2017/03/22 10:26:41 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libmediainfo/libmediainfo0/libmediainfo0-0.7.91-1.tar.xz
+2017/03/22 10:26:41 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ming/libming1/libming1-0.4.7-2.tar.xz
+2017/03/22 10:26:42 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libmspack/libmspack0/libmspack0-0.5-0.1.alpha.tar.xz
+2017/03/22 10:26:43 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/nghttp2/libnghttp2_14/libnghttp2_14-1.14.0-1.tar.xz
+2017/03/22 10:26:44 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.42-1.tar.xz
+2017/03/22 10:26:45 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pango1.0/libpango1.0_0/libpango1.0_0-1.38.1-1.tar.xz
+2017/03/22 10:26:46 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpaper/libpaper-common/libpaper-common-1.1.24-2.tar.bz2
+2017/03/22 10:26:46 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpaper/libpaper1/libpaper1-1.1.24-2.tar.bz2
+2017/03/22 10:26:47 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pixman/libpixman1_0/libpixman1_0-0.34.0-1.tar.xz
+2017/03/22 10:26:48 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/plotutils/libplotter2/libplotter2-2.6-5.tar.xz
+2017/03/22 10:26:49 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpng/libpng16/libpng16-1.6.28-1.tar.xz
+2017/03/22 10:26:50 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpsl/libpsl5/libpsl5-0.17.0-1.tar.xz
+2017/03/22 10:26:51 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pstoedit/libpstoedit0/libpstoedit0-3.70-2.tar.xz
+2017/03/22 10:26:52 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/librsvg2/librsvg2_2/librsvg2_2-2.40.11-1.tar.xz
+2017/03/22 10:26:53 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-9.tar.xz
+2017/03/22 10:26:54 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libssh2/libssh2_1/libssh2_1-1.7.0-1.tar.xz
+2017/03/22 10:26:55 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libthai/libthai0/libthai0-0.1.21-1.tar.xz
+2017/03/22 10:26:56 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tiff/libtiff6/libtiff6-4.0.6-1.tar.xz
+2017/03/22 10:26:57 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tinyxml2/libtinyxml2_4/libtinyxml2_4-4.0.1-1.tar.xz
+2017/03/22 10:26:57 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/s2tc/libtxc_dxtn/libtxc_dxtn-1.0-1.20151227gitf6ec862.tar.xz
+2017/03/22 10:26:59 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libunistring/libunistring2/libunistring2-0.9.6-1.tar.xz
+2017/03/22 10:26:59 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libwebp/libwebp5/libwebp5-0.4.4-1.tar.xz
+2017/03/22 10:27:00 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb-glx0/libxcb-glx0-1.12-1.tar.xz
+2017/03/22 10:27:00 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb-render0/libxcb-render0-1.12-1.tar.xz
+2017/03/22 10:27:01 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb-shm0/libxcb-shm0-1.12-1.tar.xz
+2017/03/22 10:27:01 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb1/libxcb1-1.12-1.tar.xz
+2017/03/22 10:27:03 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxml2/libxml2-2.9.4-1.tar.xz
+2017/03/22 10:27:04 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libzen/libzen0/libzen0-0.4.34-1.tar.xz
+2017/03/22 10:27:04 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libzip/libzip2/libzip2-0.11.2-2.tar.xz
+2017/03/22 10:27:07 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/lynx/lynx-2.8.7-1.tar.bz2
+2017/03/22 10:27:08 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/md5deep/md5deep-4.4-1.tar.xz
+2017/03/22 10:27:09 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mediainfo/mediainfo-0.7.91-1.tar.xz
+2017/03/22 10:27:13 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/nano/nano-2.7.3-1.tar.xz
+2017/03/22 10:27:14 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20170206-1.tar.xz
+2017/03/22 10:27:15 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/rcs/rcs-5.9.4-1.tar.xz
+2017/03/22 10:27:19 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/recode/recode-3.7-beta2-1.tar.bz2
+2017/03/22 10:27:21 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/rsync/rsync-3.1.2-1.tar.xz
+2017/03/22 10:27:22 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/shared-mime-info/shared-mime-info-1.7-1.tar.xz
+2017/03/22 10:27:23 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tiff/tiff-4.0.6-1.tar.xz
+2017/03/22 10:27:26 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/vim-8.0.0329-1.tar.xz
+2017/03/22 10:27:33 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/vim-common/vim-common-8.0.0329-1.tar.xz
+2017/03/22 10:27:34 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/xxd/xxd-8.0.0329-1.tar.xz
+2017/03/22 10:27:40 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/ImageMagick-6.9.5.7-2.tar.xz
+2017/03/22 10:27:43 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/arj/arj-3.10.22-3.tar.xz
+2017/03/22 10:27:44 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cabextract/cabextract-1.6-1.tar.xz
+2017/03/22 10:27:45 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ddrescue/ddrescue-1.22-1.tar.xz
+2017/03/22 10:27:46 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/dejavu-fonts/dejavu-fonts-2.37-1.tar.xz
+2017/03/22 10:27:51 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/desktop-file-utils/desktop-file-utils-0.23-1.tar.xz
+2017/03/22 10:27:52 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/dos2unix/dos2unix-7.3.4-1.tar.xz
+2017/03/22 10:28:00 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/dri-drivers/dri-drivers-13.0.5-1.tar.xz
+2017/03/22 10:28:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/exif/exif-0.6.21-1.tar.bz2
+2017/03/22 10:28:05 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/exiv2/exiv2-0.25-2.tar.xz
+2017/03/22 10:28:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/figlet/figlet-2.2.2-2.tar.bz2
+2017/03/22 10:28:13 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gamin/gamin-0.1.10-15.tar.xz
+2017/03/22 10:28:13 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.18.1-1.tar.xz
+2017/03/22 10:28:23 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libjpeg-turbo/jpeg/jpeg-1.5.0-1.tar.xz
+2017/03/22 10:28:24 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/libEGL1/libEGL1-13.0.5-1.tar.xz
+2017/03/22 10:28:24 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libEMF/libEMF1/libEMF1-1.0.8-1.tar.xz
+2017/03/22 10:28:24 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/libGL1/libGL1-13.0.5-1.tar.xz
+2017/03/22 10:28:24 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libICE/libICE6/libICE6-1.0.9-1.tar.xz
+2017/03/22 10:28:26 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/libMagickC++6_6/libMagickC++6_6-6.9.5.7-2.tar.xz
+2017/03/22 10:28:26 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/libMagickCore6_2/libMagickCore6_2-6.9.5.7-2.tar.xz
+2017/03/22 10:28:28 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ImageMagick/libMagickWand6_2/libMagickWand6_2-6.9.5.7-2.tar.xz
+2017/03/22 10:28:28 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libSM/libSM6/libSM6-1.2.2-1.tar.xz
+2017/03/22 10:28:30 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libX11/libX11-xcb1/libX11-xcb1-1.6.4-1.tar.xz
+2017/03/22 10:28:30 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libX11/libX11_6/libX11_6-1.6.4-1.tar.xz
+2017/03/22 10:28:49 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXau/libXau6/libXau6-1.0.8-1.tar.bz2
+2017/03/22 10:28:49 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXaw/libXaw7/libXaw7-1.0.13-1.tar.xz
+2017/03/22 10:28:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXdmcp/libXdmcp6/libXdmcp6-1.1.2-1.tar.xz
+2017/03/22 10:28:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXext/libXext6/libXext6-1.3.3-1.tar.xz
+2017/03/22 10:28:56 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXft/libXft2/libXft2-2.3.2-1.tar.xz
+2017/03/22 10:28:56 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXmu/libXmu6/libXmu6-1.1.2-1.tar.xz
+2017/03/22 10:28:57 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXpm/libXpm4/libXpm4-3.5.12-1.tar.xz
+2017/03/22 10:28:58 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXrender/libXrender1/libXrender1-0.9.9-1.tar.xz
+2017/03/22 10:28:58 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libXt/libXt6/libXt6-1.1.5-1.tar.xz
+2017/03/22 10:29:00 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/autotrace/libautotrace3/libautotrace3-0.31.1-17.tar.xz
+2017/03/22 10:29:00 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cairo/libcairo2/libcairo2-1.14.4-1.tar.xz
+2017/03/22 10:29:02 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/e2fsprogs/libcom_err2/libcom_err2-1.42.12-2.tar.xz
+2017/03/22 10:29:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libcroco0.6/libcroco0.6_3/libcroco0.6_3-0.6.11-1.tar.xz
+2017/03/22 10:29:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/crypt/libcrypt0/libcrypt0-1.4-1.tar.xz
+2017/03/22 10:29:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/curl/libcurl4/libcurl4-7.52.1-1.tar.xz
+2017/03/22 10:29:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libdatrie/libdatrie1/libdatrie1-0.2.8-1.tar.xz
+2017/03/22 10:29:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/db4.8/libdb4.8/libdb4.8-4.8.30-1.tar.bz2
+2017/03/22 10:29:04 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2017/03/22 10:29:04 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libexif/libexif12/libexif12-0.6.21-1.tar.bz2
+2017/03/22 10:29:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/exiv2/libexiv2_14/libexiv2_14-0.25-2.tar.xz
+2017/03/22 10:29:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/expat/libexpat1/libexpat1-2.2.0-0.tar.xz
+2017/03/22 10:29:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gamin/libfam0/libfam0-0.1.10-15.tar.xz
+2017/03/22 10:29:08 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/fftw3/libfftw3_3/libfftw3_3-3.3.6-pl1-1.tar.xz
+2017/03/22 10:29:08 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/fontconfig/libfontconfig-common/libfontconfig-common-2.12.1-1.tar.xz
+2017/03/22 10:29:13 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/fontconfig/libfontconfig1/libfontconfig1-2.12.1-1.tar.xz
+2017/03/22 10:29:13 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libfpx/libfpx1/libfpx1-1.3.1.4-1.tar.xz
+2017/03/22 10:29:14 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/freetype2/libfreetype6/libfreetype6-2.6.5-1.tar.xz
+2017/03/22 10:29:15 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gd/libgd3/libgd3-2.2.4-1.tar.xz
+2017/03/22 10:29:15 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gdk-pixbuf2.0/libgdk_pixbuf2.0_0/libgdk_pixbuf2.0_0-2.32.3-1.tar.xz
+2017/03/22 10:29:28 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/giflib/libgif4/libgif4-4.1.6-10.tar.bz2
+2017/03/22 10:29:28 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mesa/libglapi0/libglapi0-13.0.5-1.tar.xz
+2017/03/22 10:29:29 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/glib2.0/libglib2.0_0/libglib2.0_0-2.46.2-4.tar.xz
+2017/03/22 10:29:51 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gcc/libgomp1/libgomp1-5.4.0-1.tar.xz
+2017/03/22 10:29:51 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/graphite2/libgraphite2_3/libgraphite2_3-1.3.8-1.tar.xz
+2017/03/22 10:29:51 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ghostscript/libgs9/libgs9-9.19-1.tar.xz
+2017/03/22 10:29:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.14.4-1.tar.xz
+2017/03/22 10:29:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/harfbuzz/libharfbuzz0/libharfbuzz0-1.3.3-1.tar.xz
+2017/03/22 10:29:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libidn/libidn11/libidn11-1.29-1.tar.xz
+2017/03/22 10:29:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libidn2/libidn2_0/libidn2_0-0.11-1.tar.xz
+2017/03/22 10:29:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/jasper/libjasper1/libjasper1-1.900.22-1.tar.xz
+2017/03/22 10:29:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/jbigkit/libjbig2/libjbig2-2.0-14.tar.xz
+2017/03/22 10:29:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libjpeg-turbo/libjpeg8/libjpeg8-1.5.0-1.tar.xz
+2017/03/22 10:29:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libk5crypto3/libk5crypto3-1.14.4-1.tar.xz
+2017/03/22 10:29:54 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libkrb5_3/libkrb5_3-1.14.4-1.tar.xz
+2017/03/22 10:29:55 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/krb5/libkrb5support0/libkrb5support0-1.14.4-1.tar.xz
+2017/03/22 10:29:55 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/lcms2/liblcms2_2/liblcms2_2-2.8-1.tar.xz
+2017/03/22 10:29:55 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/llvm/libllvm3.8/libllvm3.8-3.8.1-1.tar.xz
+2017/03/22 10:30:00 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/llvm/libllvm3.9/libllvm3.9-3.9.1-1.tar.xz
+2017/03/22 10:30:05 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/liblzo2/liblzo2_2/liblzo2_2-2.08-1.tar.xz
+2017/03/22 10:30:05 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libmediainfo/libmediainfo0/libmediainfo0-0.7.91-1.tar.xz
+2017/03/22 10:30:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/ming/libming1/libming1-0.4.7-2.tar.xz
+2017/03/22 10:30:07 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libmspack/libmspack0/libmspack0-0.5-0.1.alpha.tar.xz
+2017/03/22 10:30:08 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/nghttp2/libnghttp2_14/libnghttp2_14-1.14.0-1.tar.xz
+2017/03/22 10:30:09 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.42-1.tar.xz
+2017/03/22 10:30:09 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pango1.0/libpango1.0_0/libpango1.0_0-1.38.1-1.tar.xz
+2017/03/22 10:30:10 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpaper/libpaper-common/libpaper-common-1.1.24-2.tar.bz2
+2017/03/22 10:30:11 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpaper/libpaper1/libpaper1-1.1.24-2.tar.bz2
+2017/03/22 10:30:11 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pixman/libpixman1_0/libpixman1_0-0.34.0-1.tar.xz
+2017/03/22 10:30:11 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/plotutils/libplotter2/libplotter2-2.6-5.tar.xz
+2017/03/22 10:30:12 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpng/libpng16/libpng16-1.6.28-1.tar.xz
+2017/03/22 10:30:12 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libpsl/libpsl5/libpsl5-0.17.0-1.tar.xz
+2017/03/22 10:30:13 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/pstoedit/libpstoedit0/libpstoedit0-3.70-2.tar.xz
+2017/03/22 10:30:14 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/librsvg2/librsvg2_2/librsvg2_2-2.40.11-1.tar.xz
+2017/03/22 10:30:15 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-9.tar.xz
+2017/03/22 10:30:17 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libssh2/libssh2_1/libssh2_1-1.7.0-1.tar.xz
+2017/03/22 10:30:17 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libthai/libthai0/libthai0-0.1.21-1.tar.xz
+2017/03/22 10:30:18 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tiff/libtiff6/libtiff6-4.0.6-1.tar.xz
+2017/03/22 10:30:18 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tinyxml2/libtinyxml2_4/libtinyxml2_4-4.0.1-1.tar.xz
+2017/03/22 10:30:18 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/s2tc/libtxc_dxtn/libtxc_dxtn-1.0-1.20151227gitf6ec862.tar.xz
+2017/03/22 10:30:19 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libunistring/libunistring2/libunistring2-0.9.6-1.tar.xz
+2017/03/22 10:30:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libwebp/libwebp5/libwebp5-0.4.4-1.tar.xz
+2017/03/22 10:30:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb-glx0/libxcb-glx0-1.12-1.tar.xz
+2017/03/22 10:30:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb-render0/libxcb-render0-1.12-1.tar.xz
+2017/03/22 10:30:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb-shm0/libxcb-shm0-1.12-1.tar.xz
+2017/03/22 10:30:20 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxcb/libxcb1/libxcb1-1.12-1.tar.xz
+2017/03/22 10:30:21 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libxml2/libxml2-2.9.4-1.tar.xz
+2017/03/22 10:30:22 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libzen/libzen0/libzen0-0.4.34-1.tar.xz
+2017/03/22 10:30:23 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/libzip/libzip2/libzip2-0.11.2-2.tar.xz
+2017/03/22 10:30:23 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/lynx/lynx-2.8.7-1.tar.bz2
+2017/03/22 10:30:35 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/md5deep/md5deep-4.4-1.tar.xz
+2017/03/22 10:30:36 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/mediainfo/mediainfo-0.7.91-1.tar.xz
+2017/03/22 10:30:36 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/nano/nano-2.7.3-1.tar.xz
+2017/03/22 10:30:43 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20170206-1.tar.xz
+2017/03/22 10:30:44 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/rcs/rcs-5.9.4-1.tar.xz
+2017/03/22 10:30:46 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/recode/recode-3.7-beta2-1.tar.bz2
+2017/03/22 10:30:51 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/rsync/rsync-3.1.2-1.tar.xz
+2017/03/22 10:30:52 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/shared-mime-info/shared-mime-info-1.7-1.tar.xz
+2017/03/22 10:30:53 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/tiff/tiff-4.0.6-1.tar.xz
+2017/03/22 10:30:56 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/vim-8.0.0329-1.tar.xz
+2017/03/22 10:30:58 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/vim-common/vim-common-8.0.0329-1.tar.xz
+2017/03/22 10:32:59 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/vim/xxd/xxd-8.0.0329-1.tar.xz
+2017/03/22 10:33:00 Changing gid back to original
+2017/03/22 10:33:00 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/03/22 10:33:43 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/03/22 10:34:11 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/fontconfig_dtd.sh"
+2017/03/22 10:34:12 abnormal exit: exit code=2
+2017/03/22 10:34:12 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2017/03/22 10:34:13 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/gsettings-desktop-schemas.sh"
+2017/03/22 10:34:13 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/libpaper.sh"
+2017/03/22 10:34:14 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/gdk-pixbuf2.0.sh"
+2017/03/22 10:34:15 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2017/03/22 10:34:15 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/lynx.sh"
+2017/03/22 10:34:16 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/vim.sh"
+2017/03/22 10:34:17 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2017/03/22 10:34:17 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_fontconfig_cache_1.sh"
+2017/03/22 10:34:57 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2017/03/22 10:34:58 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/03/22 10:34:58 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2017/03/22 10:36:05 Changing gid to Administrators
+2017/03/22 10:43:40 note: Installation Complete
+2017/03/22 10:43:40 Ending cygwin install
+2017/03/22 10:46:38 Starting cygwin install, version 2.877
+2017/03/22 10:46:38 User has backup/restore rights
+2017/03/22 10:46:38 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 10:46:38 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 10:46:45 source: network install
+2017/03/22 10:46:45 root: H:\Portable\Cygwin system
+2017/03/22 10:46:46 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 10:46:47 net: Direct
+2017/03/22 10:46:56 site: http://cygwin.mirror.constant.com/
+2017/03/22 10:48:46 NOTE!  User refused suggested missing dependencies!  Expect some packages to give errors or not function at all.
+2017/03/22 10:48:48 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gvfs/gvfs-1.26.3-2.tar.xz
+2017/03/22 10:48:52 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gvfs/gvfs-1.26.3-2.tar.xz
+2017/03/22 10:49:05 Changing gid back to original
+2017/03/22 10:49:05 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/03/22 10:49:15 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/03/22 10:49:20 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/fontconfig_dtd.sh"
+2017/03/22 10:49:20 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2017/03/22 10:49:20 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_fontconfig_cache_1.sh"
+2017/03/22 10:49:35 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2017/03/22 10:49:35 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/03/22 10:49:36 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2017/03/22 10:49:36 Changing gid to Administrators
+2017/03/22 10:49:38 note: Installation Complete
+2017/03/22 10:49:38 Ending cygwin install
+2017/03/22 10:58:43 Starting cygwin install, version 2.877
+2017/03/22 10:58:43 User has backup/restore rights
+2017/03/22 10:58:43 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 10:58:43 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 10:58:50 source: network install
+2017/03/22 10:58:51 root: H:\Portable\Cygwin system
+2017/03/22 10:58:51 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 10:58:52 net: Direct
+2017/03/22 10:58:55 site: http://cygwin.mirror.constant.com/
+2017/03/22 10:59:29 NOTE!  User refused suggested missing dependencies!  Expect some packages to give errors or not function at all.
+2017/03/22 10:59:30 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/unzip/unzip-6.0-16.tar.xz
+2017/03/22 10:59:35 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/unzip/unzip-6.0-16.tar.xz
+2017/03/22 10:59:36 Changing gid back to original
+2017/03/22 10:59:36 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/03/22 10:59:46 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/03/22 10:59:47 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2017/03/22 10:59:48 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_fontconfig_cache_1.sh"
+2017/03/22 11:00:05 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2017/03/22 11:00:05 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/03/22 11:00:05 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2017/03/22 11:00:06 Changing gid to Administrators
+2017/03/22 11:09:52 note: Installation Complete
+2017/03/22 11:09:52 Ending cygwin install
+2017/03/22 14:15:34 Starting cygwin install, version 2.877
+2017/03/22 14:15:34 User has backup/restore rights
+2017/03/22 14:15:34 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 14:15:34 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 14:15:40 source: network install
+2017/03/22 14:15:40 root: H:\Portable\Cygwin system
+2017/03/22 14:15:41 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 14:15:42 net: Direct
+2017/03/22 14:15:43 site: http://cygwin.mirror.constant.com/
+2017/03/22 14:17:34 Ending cygwin install
+2017/03/22 14:56:09 Starting cygwin install, version 2.877
+2017/03/22 14:56:09 User has backup/restore rights
+2017/03/22 14:56:09 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 14:56:09 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 14:56:19 source: network install
+2017/03/22 14:56:20 root: H:\Portable\Cygwin system
+2017/03/22 14:56:21 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 14:57:08 net: Direct
+2017/03/22 14:57:09 site: http://cygwin.mirror.constant.com/
+2017/03/22 15:06:22 Adding required dependency binutils: Selecting version 2.25-4 for installation.
+2017/03/22 15:06:22 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
+2017/03/22 15:06:22 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2017/03/22 15:06:22 Adding required dependency cygwin-devel: Selecting version 2.7.0-1 for installation.
+2017/03/22 15:06:22 Adding required dependency libdb5.3: Selecting version 5.3.28-1 for installation.
+2017/03/22 15:06:22 Adding required dependency libintl-devel: Selecting version 0.19.8.1-2 for installation.
+2017/03/22 15:06:22 Adding required dependency libsqlite3_0: Selecting version 3.16.2-1 for installation.
+2017/03/22 15:06:22 Adding required dependency libuuid-devel: Selecting version 2.25.2-2 for installation.
+2017/03/22 15:06:22 Adding required dependency openssh: Selecting version 7.5p1-1 for installation.
+2017/03/22 15:06:22 Adding required dependency perl-Carp: Selecting version 1.38-1 for installation.
+2017/03/22 15:06:22 Adding required dependency perl-Error: Selecting version 0.17024-1 for installation.
+2017/03/22 15:06:22 Adding required dependency perl-TermReadKey: Selecting version 2.37-1 for installation.
+2017/03/22 15:06:22 Adding required dependency perl_base: Selecting version 5.22.3-1 for installation.
+2017/03/22 15:06:22 Adding required dependency python: Selecting version 2.7.12-1 for installation.
+2017/03/22 15:06:22 Adding required dependency zlib-devel: Selecting version 1.2.8-3 for installation.
+2017/03/22 15:06:27 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/binutils/binutils-2.25-4.tar.xz
+2017/03/22 15:06:28 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/csih/csih-0.9.9-1.tar.xz
+2017/03/22 15:06:29 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2017/03/22 15:06:30 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cygwin/cygwin-devel/cygwin-devel-2.7.0-1.tar.xz
+2017/03/22 15:06:36 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/git/git-2.8.3-1.tar.xz
+2017/03/22 15:06:38 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/db/libdb5.3/libdb5.3-5.3.28-1.tar.xz
+2017/03/22 15:06:38 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gettext/libintl-devel/libintl-devel-0.19.8.1-2.tar.xz
+2017/03/22 15:06:40 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/sqlite3/libsqlite3_0/libsqlite3_0-3.16.2-1.tar.xz
+2017/03/22 15:06:40 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.2-2.tar.xz
+2017/03/22 15:06:42 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/openssh/openssh-7.5p1-1.tar.xz
+2017/03/22 15:06:42 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/perl-Carp/perl-Carp-1.38-1.tar.xz
+2017/03/22 15:06:43 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/perl-Error/perl-Error-0.17024-1.tar.xz
+2017/03/22 15:06:43 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/perl-TermReadKey/perl-TermReadKey-2.37-1.tar.xz
+2017/03/22 15:06:47 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/perl/perl_base/perl_base-5.22.3-1.tar.xz
+2017/03/22 15:06:54 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/python2/python/python-2.7.12-1.tar.xz
+2017/03/22 15:06:55 Downloaded H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/zlib/zlib-devel/zlib-devel-1.2.8-3.tar.xz
+2017/03/22 15:07:02 Uninstalling gvfs
+2017/03/22 15:07:09 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/binutils/binutils-2.25-4.tar.xz
+2017/03/22 15:07:36 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/csih/csih-0.9.9-1.tar.xz
+2017/03/22 15:07:38 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2017/03/22 15:07:38 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/cygwin/cygwin-devel/cygwin-devel-2.7.0-1.tar.xz
+2017/03/22 15:07:58 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/git/git-2.8.3-1.tar.xz
+2017/03/22 15:09:55 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/db/libdb5.3/libdb5.3-5.3.28-1.tar.xz
+2017/03/22 15:09:55 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gettext/libintl-devel/libintl-devel-0.19.8.1-2.tar.xz
+2017/03/22 15:09:56 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/sqlite3/libsqlite3_0/libsqlite3_0-3.16.2-1.tar.xz
+2017/03/22 15:09:57 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.2-2.tar.xz
+2017/03/22 15:09:58 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/openssh/openssh-7.5p1-1.tar.xz
+2017/03/22 15:10:03 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/perl-Carp/perl-Carp-1.38-1.tar.xz
+2017/03/22 15:10:04 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/perl-Error/perl-Error-0.17024-1.tar.xz
+2017/03/22 15:10:05 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/perl-TermReadKey/perl-TermReadKey-2.37-1.tar.xz
+2017/03/22 15:10:06 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/perl/perl_base/perl_base-5.22.3-1.tar.xz
+2017/03/22 15:10:40 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/python2/python/python-2.7.12-1.tar.xz
+2017/03/22 15:12:47 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/zlib/zlib-devel/zlib-devel-1.2.8-3.tar.xz
+2017/03/22 15:12:48 Changing gid back to original
+2017/03/22 15:12:48 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/03/22 15:13:32 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/03/22 15:13:38 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2017/03/22 15:13:39 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2017/03/22 15:13:39 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_fontconfig_cache_1.sh"
+2017/03/22 15:13:55 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2017/03/22 15:13:56 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/03/22 15:13:56 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2017/03/22 15:13:57 Changing gid to Administrators
+2017/03/22 15:14:00 note: Installation Complete
+2017/03/22 15:14:00 Ending cygwin install

@@ -1,0 +1,791 @@
+# This is a shell archive.  Save it in a file, remove anything before
+# this line, and then unpack it by entering "sh file".  Note, it may
+# create directories; files and directories will be owned by you and
+# have default permissions.
+#
+# This archive contains:
+#
+#	html+tables.README
+#	html+tables
+#
+echo x - html+tables.README
+sed 's/^X//' >html+tables.README << 'END-of-html+tables.README'
+XFrom the comments of the html+tables program:
+X----------------------------------------------------------------------
+Xhtml+tables v0.4 written by Brooks Cutter (bcutter@paradyne.com)
+X  - creates preformatted text tables from HTML+ Table definitions.
+X
+XThis program will parse a HTML+ Document replace HTML+ Tables
+X(<tbl>...</tbl>) with preformatted text tables.
+XFor more information on the specific details of HTML+ Tables see:
+Xhttp://info.cern.ch/pub/www/dev/htmlplus.dtd
+Xhttp://info.cern.ch/hypertext/WWW/Markup/htmlplus.dtd.txt
+Xhttp://info.cern.ch/hypertext/WWW/Markup/htmlplus.ps
+X
+XThis program isn't intended to be used as a gateway - because
+Xof the overhead of continually parsing the documents (and the
+Xlack of security (ie: checking pathnames)) - but instead documents
+Xshould be processed once with this program, like:
+X
+Xhtml+tables file.html+ > file.html
+X
+XThis program is a temporary measure - Until HTML+ Table support
+Xshows up in X/Mosaic, WinMosaic, Lynx, etc... (It should also
+Xbe useful for anyone who puts together the "HTML to printed book"
+Xpackage)
+X
+XNote on HTML+ Compliance:
+X
+XThis program implements most, but not all of the HTML+ table options.
+XFurthermore, certain parts of the spec were vague (or more likely I
+Xdidn't read all the information out there) such as how to handle
+Xwordwrapping.  The point is that while I hoped that when HTML+ tables
+Xappear in NCSA's X/Mosaic and Win/Mosaic, their behavior may be different
+Xthen the output of this script..
+X
+XWhat it does and doesn't do:
+X
+X- preformatted ascii tables are surrouned with <pre> and </pre>
+X- <tbl>..</tbl> is a table without borders
+X- <tbl border>..</tbl> is a table with borders
+X- <tt> and <tt top> put the title at the top of the table
+X- <tt bottom> puts the table at the bottom
+X- <th> and <td> are table header and table data - but they are treated
+X  *EXACTLY* the same.  Also none of their options are supported 
+X  like align=(left,center,right) or rowspan or colspan..
+X- <tr> terminates a row.  It isn't necessary right before the </tbl> tag.
+X- Empty rows are deleted, but empty columns aren't
+X- It ignores CR's in the input stream - presumably the HTML way..
+X- It will size the tables (and wrap the text in cells) according to the
+X  length in $terminal_width 
+X- when text is wrapped it attempts to break the lines on a space, a comma
+X- and a period, in that order.  If it's a space, it doesn't show up
+X  on the next line
+X- the tags <a href>...</a> are supported, but <b>..</b> and <i>..</i>
+X  aren't because of a bug in the viewers with enhanced preformatted
+X  text.
+X- when wordwrapping text with <a>..</a>, if it breaks the text in the
+X  middle of the hyperlinked text, the hyperlink is continued to the
+X  next line.
+X- Embeds the date the file was converted and the version of html+tables
+X	in the output as a HTML/SGML <!-- comment -->
+X- I think it goes without saying that <img src> isn't supported.. 
+X  (Even if I could find the gif at conversion time to check the
+X   size, I don't know what size the preformatted text will be rendered
+X   in.  Besides, I don't need it...)
+X
+XKnown bugs:
+X
+X- table may not be resized to _exactly_ $terminal_width..
+X- When wrapping occurs in a table cell, after all wrapping is
+X  completed there may be more than one space between the longest string
+X  in table cell.
+X- May be a few other small bugs with cell formatting
+X
+XLimitations:
+X
+X- a one character wide column requires 5 characters to display:
+X  two for horizontal lines, two spaces and 1 character of display.
+X  therefore, on a 80 column table the most columns you can have is
+X  16 (80/5) columns.  The program will exit with a error message if you
+X  exceed $terminal_width/5 columns
+X
+XChanges in v0.4: (first release)
+X- fixed bugs in formatting lines with HTML tags
+X----------------------------------------------------------------------
+XHere are some examples of the output of html+tables:
+X----------------------------------------------------------------------
+XTable #1: A simple table with a border, title at the top, 3 rows
+Xand 4 columns.
+X----------------------------------------------------------------------
+X<tbl border>
+X<tt top>An Example of a Table
+X<th> <th>average<th>other<tr>
+X<th> height <th> width <th> category<tr>
+X<th> males<td>1.9<td>.003<td>yyy<tr>
+X<th>females<td>1.7<td>.002<td>xxx<tr>
+X<th><td><td>
+X</tbl>
+X----------------------------------------------------------------------
+X<pre>
+X       An Example of a Table
+X+---------+---------+----------+-----+
+X|         | average | other    |     |
+X|---------|---------|----------|-----|
+X| height  | width   | category |     |
+X|---------|---------|----------|-----|
+X| males   | 1.9     | .003     | yyy |
+X|---------|---------|----------|-----|
+X| females | 1.7     | .002     | xxx |
+X+---------+---------+----------+-----+
+X</pre>
+X----------------------------------------------------------------------
+X
+XTable #2: The same as Table #1 except the title is at the bottom
+X----------------------------------------------------------------------
+X<tbl border>
+X<tt bottom>An Example of a Table
+X<th> <th>average<th>other<tr>
+X<th> height <th> width <th> category<tr>
+X<th> males<td>1.9<td>.003<td>yyy<tr>
+X<th>females<td>1.7<td>.002<td>xxx<tr>
+X<th><td><td>
+X</tbl>
+X----------------------------------------------------------------------
+X<pre>
+X+---------+---------+----------+-----+
+X|         | average | other    |     |
+X|---------|---------|----------|-----|
+X| height  | width   | category |     |
+X|---------|---------|----------|-----|
+X| males   | 1.9     | .003     | yyy |
+X|---------|---------|----------|-----|
+X| females | 1.7     | .002     | xxx |
+X+---------+---------+----------+-----+
+X       An Example of a Table
+X</pre>
+X----------------------------------------------------------------------
+X
+XTable 3: The same as Table #1 but with no border:
+X
+X----------------------------------------------------------------------
+X<tbl>
+X<tt top>An Example of a Table
+X<th> <th>average<th>other<tr>
+X<th> height <th> width <th> category<tr>
+X<th> males<td>1.9<td>.003<td>yyy<tr>
+X<th>females<td>1.7<td>.002<td>xxx<tr>
+X<th><td><td>
+X</tbl>
+X----------------------------------------------------------------------
+X<pre>
+X       An Example of a Table
+X                                      
+X            average   other           
+X                                      
+X  height    width     category        
+X                                      
+X  males     1.9       .003       yyy  
+X                                      
+X  females   1.7       .002       xxx  
+X                                      
+X</pre>
+X----------------------------------------------------------------------
+X
+X
+XTable #4: Same as table 1 but with a long string to demonstrate
+Xwrapping
+X----------------------------------------------------------------------
+X<tbl border>
+X<tt top>An Example of a Table with Wrapping
+X<th> <th>average<th>other<tr>
+X<th> height <th> width (This is a number.  Numbers, historically
+Xhave been used for a variety of purposes...)<th> category<tr>
+X<th> males<td>1.9<td>.003<td>yyy<tr>
+X<th>females<td>1.7<td>.002<td>xxx<tr>
+X<th><td><td>
+X</tbl>
+X----------------------------------------------------------------------
+X<pre>
+X                 An Example of a Table with Wrapping
+X+---------+--------------------------------------------+----------+-----+
+X|         | average                                    | other    |     |
+X|---------|--------------------------------------------|----------|-----|
+X| height  | width (This is a number.  Numbers,         | category |     |
+X|         | historically have been used for a variety  |          |     |
+X|         | of purposes...)                            |          |     |
+X|---------|--------------------------------------------|----------|-----|
+X| males   | 1.9                                        | .003     | yyy |
+X|---------|--------------------------------------------|----------|-----|
+X| females | 1.7                                        | .002     | xxx |
+X+---------+--------------------------------------------+----------+-----+
+X</pre>
+X----------------------------------------------------------------------
+X
+XTable #5: Same as table 1 but with a long string to demonstrate
+Xwrapping and <a href> tag
+X----------------------------------------------------------------------
+X<tbl border>
+X<tt top>An Example of a Table with Wrapping
+X<th> <th>average<th>other<tr>
+X<th> height <th> 
+X<a href="http://cheapnumbs.com/numbers/wonderfulworld.html">width
+X(This is a number.  Numbers, historically have been used for a variety 
+Xof purposes...)</a>
+X<th> category<tr>
+X<th> males<td>1.9<td>.003<td>yyy<tr>
+X<th>females<td>1.7<td>.002<td>xxx<tr>
+X<th><td><td>
+X</tbl>
+X----------------------------------------------------------------------
+X<pre>
+X                 An Example of a Table with Wrapping
+X+---------+--------------------------------------------+----------+-----+
+X|         | average                                    | other    |     |
+X|---------|--------------------------------------------|----------|-----|
+X| height  | <a href="http://cheapnumbs.com/numbers/wonderfulworld.html">width (This is a number.  Numbers,</a>         | category |     |
+X|         | <a href="http://cheapnumbs.com/numbers/wonderfulworld.html">historically have been used for a variety </a> |          |     |
+X|         | <a href="http://cheapnumbs.com/numbers/wonderfulworld.html">of purposes...)</a>                            |          |     |
+X|---------|--------------------------------------------|----------|-----|
+X| males   | 1.9                                        | .003     | yyy |
+X|---------|--------------------------------------------|----------|-----|
+X| females | 1.7                                        | .002     | xxx |
+X+---------+--------------------------------------------+----------+-----+
+X</pre>
+X----------------------------------------------------------------------
+X
+XPlease send bug reports, comments, etc to bcutter@paradyne.com
+END-of-html+tables.README
+echo x - html+tables
+sed 's/^X//' >html+tables << 'END-of-html+tables'
+X#!/usr/local/bin/perl
+X# html+tables v0.4 written by Brooks Cutter (bcutter@paradyne.com)
+X#   - creates preformatted text tables from HTML+ Table definitions.
+X#
+X# This program will parse a HTML+ Document replace HTML+ Tables
+X# (<tbl>...</tbl>) with preformatted text tables.
+X# For more information on the specific details of HTML+ Tables see:
+X# http://info.cern.ch/pub/www/dev/htmlplus.dtd
+X# http://info.cern.ch/hypertext/WWW/Markup/htmlplus.dtd.txt
+X# http://info.cern.ch/hypertext/WWW/Markup/htmlplus.ps
+X#
+X# This program isn't intended to be used as a gateway - because
+X# of the overhead of continually parsing the documents (and the
+X# lack of security (ie: checking pathnames)) - but instead documents
+X# should be processed once with this program, like:
+X#
+X# html+tables file.html+ > file.html
+X#
+X# This program is a temporary measure - Until HTML+ Table support
+X# shows up in X/Mosaic, WinMosaic, Lynx, etc... (It should also
+X# be useful for anyone who puts together the "HTML to printed book"
+X# package)
+X#
+X# Note on HTML+ Compliance:
+X#
+X# This program implements most, but not all of the HTML+ table options.
+X# Furthermore, certain parts of the spec were vague (or more likely I
+X# didn't read all the information out there) such as how to handle
+X# wordwrapping.  The point is that while I hoped that when HTML+ tables
+X# appear in NCSA's X/Mosaic and Win/Mosaic, their behavior may be different
+X# then the output of this script..
+X#
+X# What it does and doesn't do:
+X#
+X# - preformatted ascii tables are surrouned with <pre> and </pre>
+X# - <tbl>..</tbl> is a table without borders
+X# - <tbl border>..</tbl> is a table with borders
+X# - <tt> and <tt top> put the title at the top of the table
+X# - <tt bottom> puts the table at the bottom
+X# - <th> and <td> are table header and table data - but they are treated
+X#   *EXACTLY* the same.  Also none of their options are supported 
+X#   like align=(left,center,right) or rowspan or colspan..
+X# - <tr> terminates a row.  It isn't necessary right before the </tbl> tag.
+X# - Empty rows are deleted, but empty columns aren't
+X# - It ignores CR's in the input stream - presumably the HTML way..
+X# - It will size the tables (and wrap the text in cells) according to the
+X#   length in $terminal_width 
+X# - when text is wrapped it attempts to break the lines on a space, a comma
+X# - and a period, in that order.  If it's a space, it doesn't show up
+X#   on the next line
+X# - the tags <a href>...</a> are supported, but <b>..</b> and <i>..</i>
+X#   aren't because of a bug in the viewers with enhanced preformatted
+X#   text.
+X# - when wordwrapping text with <a>..</a>, if it breaks the text in the
+X#   middle of the hyperlinked text, the hyperlink is continued to the
+X#   next line.
+X# - I think it goes without saying that <img src> isn't supported.. 
+X#   (Even if I could find the gif at conversion time to check the
+X#    size, I don't know what size the preformatted text will be rendered
+X#    in.  Besides, I don't need it...)
+X#
+X# Known bugs:
+X#
+X# - table may not be resized to _exactly_ $terminal_width..
+X# - When wrapping occurs in a table cell, after all wrapping is
+X#   completed there may be more than one space between the longest string
+X#   in table cell.
+X# - May be a few other small bugs with cell formatting
+X#
+X# Limitations:
+X#
+X# - a one character wide column requires 5 characters to display:
+X#   two for horizontal lines, two spaces and 1 character of display.
+X#   therefore, on a 80 column table the most columns you can have is
+X#   16 (80/5) columns.  The program will exit with a error message if you
+X#   exceed $terminal_width/5 columns
+X#
+X# Changes in v0.4: (first release)
+X# - fixed bugs in formatting lines with HTML tags
+X#
+X
+X# Set this to the maximum width of the tables
+X# (Note due to a possible bug the real value may be a few more than
+X# this value - so 70 might output 70-75 column tables. Type: "rough int")
+X$terminal_width = 70;
+X# This hack is used in wordwrapping lines with HTML tags in them.
+X# it tells it to what percent it should try to fill the cells with.
+X# If it can't wordwrap (space,comma,period) it to this value or less
+X$fill_percent = '0.50'; # Valid values 0.1 - 1.0
+X# Info on this program
+X$program_ver = '0.4';
+X$program_contact = 'Brooks Cutter (bcutter@paradyne.com)';
+X
+X
+Xrequire 'ctime.pl'; # Need this perl library
+Xchop($date_n_time = &ctime(time));
+X
+Xprint "<!-- The tables in this document were created on $date_n_time -->\n";
+Xprint "<!-- Tables created with HTML+Tables v$program_ver by $program_contact -->\n";
+X
+X@links = &parse_html(<>);
+X
+X$ctr = -1;
+X$x = $y = 1;
+X$in_table = 0;
+Xwhile (defined $links[++$ctr]) {
+X  if (($links[$ctr] =~ /^\s*$/) && (!$in_table)) { 
+X    print $links[$ctr];
+X    next;
+X  }
+X  $data = $links[$ctr];
+X  $data =~ s/^\s+//; # Delete leading space
+X  $data =~ s/\s+$//; # Delete trailing space
+X  $data =~ tr/\r\n//d; # Delete linefeed, Carriage Return
+X  if ((!$in_table) && ($data =~ m!^<tbl\s*(.*)>$!i)) {
+X    $in_table = 1; 
+X    $table_opts = $1;
+X    $table_border = 1 if ($table_opts =~ /border/i);
+X    next;
+X  }
+X  if (($in_table) && ($data =~ m!^</tbl!i)) {
+X    $in_table = 0;
+X    &print_table($table_title,*table);
+X    $table_title = '';
+X    %table = ();
+X    undef @col_len;
+X    $x = $y = 1;
+X    next;
+X  }
+X  if ($in_table) {
+X    if ($data =~ /^<tt\s*(\S*)>$/i) { # Table Title
+X      $loc = $1;
+X      $loc =~ tr/A-Z/a-z/;
+X      $ctr++;
+X      $data = $links[$ctr];
+X      $data =~ s/^\s+//; # Delete leading space
+X      $data =~ s/\s+$//; # Delete trailing space
+X      $data =~ tr/\x0c\x0a//d; # Delete linefeed, Carriage Return
+X      $table_title = $data;
+X      $table_bottom = 1 if ($loc eq 'bottom');
+X      next;
+X    }
+X    if ($data =~ /^<\s*t[dh]/i) {
+X    #if ($data =~ /^<t[dhr]/i) {
+X      # Retrieve until next <td> or <tr> or <th>
+X      $col_len = 0;
+X      while ((defined $links[++$ctr]) && (!($links[$ctr] =~ /^<\s*t[rhd]/i))) {
+X        $data = $links[$ctr];
+X        next if ($data =~ /^\s*$/);
+X        $data =~ s/[\r\n]+/ /g; # Replace linefeed, Carriage Return
+X        $data =~ s/^\s+//; # Delete leading space
+X        $data =~ s/\s+$//; # Delete trailing space
+X				# If you want to try <b>/<i> change this line here
+X				# (and the length/substr below)
+X        next if ((substr($data,0,1) eq '<') 
+X          && (substr($data,0,2) ne '<a')
+X          && (substr($data,0,3) ne '</a'));
+X        # These are temp - for including <>'s
+X        unless (defined $table{$y,$x}) {
+X          $table{$y,$x} = $data;
+X        } else {
+X          # If current link is a tag, or previous link is the beginning of
+X          # a href tag, then don't prefix it with space...
+X          if ((substr($data,0,1) eq '<') 
+X          || (substr($links[$ctr-1],0,2) eq '<a')) {
+X            $table{$y,$x} .= $data;
+X          } else {
+X            $table{$y,$x} .= " $data";
+X            $col_len++; # To account for preceeding space
+X          }
+X        }
+X        $col_len += length($data) unless 
+X          ((substr($data,0,2) eq '<a') || (substr($data,0,3) eq '</a'));
+X      }
+X      $col_len[$x] = $col_len if ($col_len[$x] <= $col_len);
+X      #$table_len{$y,$x} = $col_len;
+X      if ($links[$ctr] =~ /^<tr/i) { # Next Table Row
+X        $y++; $x = 1;
+X        next; # Next Row
+X      }
+X      $x++;
+X      $ctr--;
+X      next;
+X    }
+X    next;
+X  } else {
+X    print $links[$ctr];
+X  }
+X}
+X&print_table($table_title,*table);
+X$table_title = '';
+X
+X#
+Xexit;
+Xsub print_table {
+X  local($title) = shift(@_);
+X  local(*table) = shift(@_);
+X  local($row,$row_len,$maxlen,$maxrow,$x,$y,$fmt,$val,$line,$num_rows,$eval,$_);
+X  local($col);
+X  return if ($#col_len == -1);
+X  local($next_line,$emptyrow,@empty);
+X  #local($terminal_width) = 65;
+X  &abort_table($#col_len+1) if (int($terminal_width/5) < ($#col_len+1));
+X  $row = 1;
+X  $row_len = 0;
+X  $maxlen = 0;
+X  $maxrow = 0;
+X  $emptyrow = 1;
+X  for (sort sort_table keys %table) {
+X    ($y,$x) = split(/$;/,$_,2);
+X  
+X    if ($y != $row) {
+X      # For last row...
+X      $empty[$row] = $emptyrow;
+X      $row_len += 2; # space and border
+X      $maxlen = $row_len if ($row_len > $maxlen);
+X      # New Row
+X      $row_len = 0;
+X      $row = $y;
+X      $num_rows++;
+X      $emptyrow = 1;
+X    }
+X    $row_len += 2 + $col_len[$x];
+X  
+X    if(length $table{$y,$x}) {
+X      $emptyrow = 0;
+X    }
+X  }
+X  # Last row
+X  $row_len += 2; # space and border
+X  $maxlen = $row_len if ($row_len > $maxlen);
+X  $num_rows++;
+X  $empty[$row] = $emptyrow;
+X  
+X  local($tbl_vline,$tbl_hline,$tbl_intersection);
+X  if ($table_border) {
+X    ($tbl_vline,$tbl_hline,$tbl_intersection) = ('|','-','+');
+X  } else {
+X    ($tbl_vline,$tbl_hline,$tbl_intersection) = (' ',' ',' ');
+X  }
+X  $next_line = $fmt = $tbl_vline;
+X  $line = $tbl_intersection;
+X
+X  $val = '';
+X  &size_to_win($terminal_width,*col_len,*maxlen);
+X  for $col (1..$#col_len) {
+X    $fmt .= " %s $tbl_vline";
+X    $line .= $tbl_hline x ($col_len[$col]+2) . $tbl_intersection;
+X    $next_line .= $tbl_hline x ($col_len[$col]+2) . $tbl_vline;
+X  }
+X  $next_line .= "\n";
+X  $line .= "\n";
+X  
+X  print "<pre>\n";
+X  if (($title) && (!$table_bottom)) {
+X    print 
+X    &center(($maxlen < $terminal_width ? $maxlen : $terminal_width),$title),
+X    "\n";
+X  }
+X
+X  $first = 1;
+X  print $line;
+X  local(@data);
+X  for $y (1..$num_rows) { # Row at a time
+X    next if ($empty[$y]);
+X    print $next_line unless($first); $first = 0;
+X    do {
+X      @data = ();
+X      $loop = 0;
+X      for $x (1..$#col_len) {
+X        #if (defined $table{$y,$x}) {
+X        if (length $table{$y,$x}) {
+X          ($data[$x],$therest) = &url_substr($table{$y,$x},$col_len[$x]);
+X          if (length $therest) { $table{$y,$x} = $therest; $loop = 1; }
+X          else { delete $table{$y,$x}; }
+X        } else {
+X          $data[$x] = &pad($table{$y,$x},$col_len[$x]);
+X          delete $table{$y,$x};
+X        }
+X      }
+X      shift @data; # drop data[0]
+X      $eval = 'printf("'.$fmt. '\n",@data);';
+X      eval $eval;
+X      die "error eval'ing '$eval': $@\n" if ($@);
+X    } while ($loop);
+X  }
+X  print $line;
+X  if (($title) && ($table_bottom)) {
+X    print 
+X    &center(($maxlen < $terminal_width ? $maxlen : $terminal_width),$title),
+X    "\n";
+X  }
+X  print "</pre>\n";
+X}
+X
+Xexit;
+X
+Xsub sort_table {
+X  local($a_y,$a_x) = split(/$;/,$a);
+X  local($b_y,$b_x) = split(/$;/,$b);
+X
+X  return($a_y <=> $b_y) if ($a_y != $b_y);
+X  return($a_x <=> $b_x);
+X}
+X
+Xsub parse_html {
+X  local(@data) = ();
+X  local($save);
+X  NEXTLINE: for (@_) {
+X    #$save .= "$_ ";
+X    $save .= $_;
+X    if ((($lt = index($save,'<')) == -1) || (index($save,'>',$lt) == -1))
+X      { next; }
+X    $lt = $gt = 0;
+X    while (($lt = index($save, '<', $gt)) >= $[) {
+X      # This is the data *BEFORE* the '<'
+X      if ($lt) { # do If isn't /^</
+X        if ($gt) {
+X          $data = substr($save, ($gt+1), ($lt-$gt-1));
+X        } else {
+X          $data = substr($save, ($gt), ($lt-$gt));
+X        }
+X        push(@data, $data);
+X      }
+X      $gt = index($save, '>', $lt);
+X      if ($gt == -1) {
+X        $save = substr($save, $lt);
+X        next NEXTLINE;
+X      }
+X      # This is the data *INSIDE* the <>
+X      $data = substr($save, $lt, ($gt-$lt+1));
+X      push(@data, $data);
+X    }
+X    $save = substr($save, ($gt+1));
+X  }
+X  push(@data, $save);
+X  return(@data);
+X}
+X
+Xsub center {
+X  local($width) = shift(@_);
+X  local($string) = shift(@_);
+X  local($length) = length($string);
+X  local($pad) = (($width - $length)/2);
+X  return(' ' x $pad . $string);
+X}
+X
+Xsub size_to_win {
+X  local($term_width) = shift(@_);
+X  local(*col_len) = shift(@_);
+X  local(*maxlen) = shift(@_);
+X  local($col,%col_len2col,@col_len_sort);
+X  local($long,$next_long);
+X  for $col (1..$#col_len) { 
+X    if (length $col_len2col{$col_len[$col]}) {
+X      $col_len2col{$col_len[$col]} .= ",$col";
+X    } else {
+X      $col_len2col{$col_len[$col]} = $col;
+X    }
+X  }
+X  while ($maxlen > $term_width) {
+X    local(@cols) = ();
+X    local($decrease_by) = 0;
+X    @col_len_sort = reverse sort {$a <=> $b} @col_len;
+X    $long = shift(@col_len_sort);
+X    $next_long = shift(@col_len_sort);
+X    $col = $col_len2col{$long};
+X    if (index($col_len2col{$long},',') != -1) {
+X      @cols = split(/,/,$col_len2col{$long});
+X      $col = shift(@cols);
+X      $col_len2col{$long} = join(',',@cols);
+X    } else {
+X      $col = $col_len2col{$long};
+X      delete $col_len2col{$long};
+X    }
+X    if (($maxlen - ($long - $next_long) + 1) < $term_width) {
+X      # Would actually be smaller than window instead of exact...
+X      $decrease_by = ($maxlen - $term_width);
+X      $col_len[$col] -= $decrease_by;
+X      $maxlen -= $decrease_by;
+X    } else {
+X      $decrease_by = ($long - $next_long + 1);
+X      $col_len[$col] -= $decrease_by;
+X      $maxlen -= $decrease_by;
+X    }
+X    if (length $col_len2col{$col_len[$col]}) {
+X      $col_len2col{$col_len[$col]} .= ",$col";
+X    } else {
+X      $col_len2col{$col_len[$col]} = $col;
+X    }
+X  }
+X}
+X
+Xsub url_substr {
+X  local($str) = shift(@_);
+X  local($maxlen) = shift(@_);
+X  local($space_len) = shift(@_) || $maxlen;
+X  local($segment,$therest);
+X  local($term,$tag,$tag);
+X  local($curlen) = 0;
+X
+X  # These are used to detect <html>tags</html>
+X  local($lt_ndx) = rindex($str,'<',$maxlen);
+X  local($gt_ndx) = rindex($str,'>',$maxlen);
+X  if (($lt_ndx == -1) && ($gt_ndx == -1)) {
+X  # No tags in string at all
+X    local($delim,$ndx,$ndx2);
+X		$curlen = length($str);
+X    if (length($str) < $maxlen) {
+X      $segment = $str;
+X			$str = '';
+X      $segment = &pad($segment,$space_len);
+X      return($segment,undef);
+X    } else {
+X      $delim = ' '; $ndx = rindex($str,' ',$maxlen); $ndx2 = $ndx+1;
+X      if ($ndx == -1) 
+X        { $delim = ','; $ndx = rindex($str,$delim,$maxlen); $ndx2 = $ndx; }
+X      if ($ndx == -1) 
+X        { $delim = '.'; $ndx = rindex($str,$delim,$maxlen); $ndx2 = $ndx; }
+X      $ndx = -1 if ($ndx == 0);
+X      if ($ndx == -1) {
+X        $segment = substr($str,0,$maxlen);
+X        $curlen = length($segment);
+X        $therest = substr($str,$maxlen);
+X      } else {
+X        $segment = substr($str,0,$ndx);
+X        $curlen = length($segment);
+X        $therest = substr($str,$ndx2);
+X      }
+X    }
+X  } else {
+X    # Break into links for easier handling
+X    local(@links) = &parse_html($str); 
+X  
+X    local($link_ctr) = -1;
+X    while (defined $links[++$link_ctr]) {
+X      next if ($links[$link_ctr] =~ /^\s*$/);
+X      if ($links[$link_ctr] =~ m!^<\s*(/)?\s*(.+)\s*>$!) {
+X        $term = ($1 eq '/');
+X        $tag = $2;
+X        if ($tag =~ /^\s*([abi])/i) { # end tag must be there.
+X          local($tag_c) = $1;
+X          # Pray for no nested tags (bug in waiting)
+X          if ($term) {
+X            $segment .= $end_tag;
+X            $begin_tag = $end_tag = '';
+X          } else {
+X            $begin_tag = $links[$link_ctr];
+X            $end_tag = "</$tag_c>";
+X            $segment .= $links[$link_ctr];
+X          }
+X        } 
+X      } else {
+X        if (($curlen >= $maxlen) || ($curlen >= int($fill_percent * $maxlen))) {
+X          if ($begin_tag) {
+X            $segment .= $end_tag;
+X            $therest = $begin_tag . join('',@links[$link_ctr..$#links]);
+X          } else {
+X            $therest = join('',@links[$link_ctr..$#links]);
+X          }
+X          last;
+X        }
+X
+X        $link_length = length($links[$link_ctr]);
+X        if (($curlen+$link_length) > $maxlen) {
+X          local($delim,$ndx,$ndx2);
+X          $delim = ' '; 
+X          $ndx = rindex($links[$link_ctr],$delim,($maxlen - $curlen));
+X          $ndx2 = $ndx +1; 
+X          if ($ndx == -1) {
+X            $delim = ','; 
+X            $ndx = rindex($links[$link_ctr],$delim,($maxlen - $curlen));
+X            $ndx2 = $ndx; 
+X          }
+X          if ($ndx == -1) {
+X            $delim = '.'; 
+X            $ndx = rindex($links[$link_ctr],$delim,($maxlen - $curlen));
+X            $ndx2 = $ndx;
+X          }
+X          $ndx = $maxlen if ($ndx <= 0);
+X          local($cutlen);
+X          if ($ndx <= $maxlen) {
+X            $cutlen = $ndx;
+X            $cutlen2 = $ndx2;
+X          } else {
+X            $cutlen2 = $cutlen = ($maxlen-$curlen);
+X          } 
+X
+X          $curlen += $cutlen;
+X          $segment .= substr($links[$link_ctr],0,$cutlen);
+X          substr($links[$link_ctr],0,$cutlen2) = '';
+X          $link_ctr--;
+X        } else {
+X          $curlen += $link_length;
+X          $segment .= $links[$link_ctr];
+X        }
+X      }
+X    }
+X  }
+X  if ($curlen < $space_len) {
+X    $segment .= ' ' x ($space_len - $curlen);
+X  }
+X  return($segment,$therest);
+X}
+X
+X#sub debug {
+X#  print STDERR @_,"\n";
+X#}
+X
+Xsub pad {
+X  local($v) = substr($_[0],0,$_[1]);
+X  return($v . ' ' x ($_[1] - length($v)));
+X}
+X
+Xsub abort_table {
+X  local($num_col) = shift(@_);
+X  local($tw5) = int($terminal_width/5);
+X
+X  print STDERR <<EOF;
+X  ####    ####   #####   #####    #   #
+X #       #    #  #    #  #    #    # #
+X  ####   #    #  #    #  #    #     #
+X      #  #    #  #####   #####      #
+X #    #  #    #  #   #   #   #      #
+X  ####    ####   #    #  #    #     #
+X
+XI was unable to parse one of the tables because there were too many
+Xcolumns in the table.  In order for this program to run, the following
+Xmust be true:
+X
+X(\$terminal_width/5) < $num_col
+X
+XThe program failed because:
+X
+X($terminal_width / 5) = $tw5
+Xand
+X$tw5 >= $num_col
+X
+XIn order to run this, you can either decrease the number of columns in
+Xthe table, or increase the value of \$terminal_width which is currently
+Xset to $terminal_width.
+X
+XThe program will now exit.
+X
+XEOF
+X
+X  exit;
+X}
+END-of-html+tables
+exit
+

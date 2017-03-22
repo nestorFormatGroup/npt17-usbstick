@@ -1,0 +1,148 @@
+figlet
+------------------------------------------
+
+Create large letters on text screen (Frank, Ian & Glenn's Letters)
+
+Program creates large characters out of ordinary screen characters. It
+can create characters in many different styles and can kern and
+smush these characters together in various ways. Figlet output is
+generally reminiscent of the sort of signatures many people like to
+put at the end of e-mail and Usenet messages.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/figlet
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+IRC channel:
+
+Upstream contact:
+  Author: <no author any more exists>
+  Bugs:
+
+License:
+  Custom
+  See http://packages.debian.org/changelogs/pool/non-free/f/figlet/figlet_2.2.2-1/figlet.copyright
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack figlet-2.2.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./figlet*.sh all
+
+This will create:
+  figlet-2.2.2-1.tar.bz2
+  figlet-2.2.2-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+
+usr/bin/chkfont.exe
+usr/bin/figlet.exe
+usr/bin/showfigfonts
+usr/share/doc/Cygwin/figlet-2.2.2.README
+usr/share/doc/figlet-2.2.2/CHANGES
+usr/share/doc/figlet-2.2.2/FAQ
+usr/share/doc/figlet-2.2.2/LICENSE
+usr/share/doc/figlet-2.2.2/README
+usr/share/doc/figlet-2.2.2/figfont.txt
+usr/share/figlet/646-ca.flc
+usr/share/figlet/646-ca2.flc
+usr/share/figlet/646-cn.flc
+usr/share/figlet/646-cu.flc
+usr/share/figlet/646-de.flc
+usr/share/figlet/646-dk.flc
+usr/share/figlet/646-es.flc
+usr/share/figlet/646-es2.flc
+usr/share/figlet/646-fr.flc
+usr/share/figlet/646-gb.flc
+usr/share/figlet/646-hu.flc
+usr/share/figlet/646-irv.flc
+usr/share/figlet/646-it.flc
+usr/share/figlet/646-jp.flc
+usr/share/figlet/646-kr.flc
+usr/share/figlet/646-no.flc
+usr/share/figlet/646-no2.flc
+usr/share/figlet/646-pt.flc
+usr/share/figlet/646-pt2.flc
+usr/share/figlet/646-se.flc
+usr/share/figlet/646-se2.flc
+usr/share/figlet/646-yu.flc
+usr/share/figlet/8859-2.flc
+usr/share/figlet/8859-3.flc
+usr/share/figlet/8859-4.flc
+usr/share/figlet/8859-5.flc
+usr/share/figlet/8859-7.flc
+usr/share/figlet/8859-8.flc
+usr/share/figlet/8859-9.flc
+usr/share/figlet/banner.flf
+usr/share/figlet/big.flf
+usr/share/figlet/block.flf
+usr/share/figlet/bubble.flf
+usr/share/figlet/digital.flf
+usr/share/figlet/frango.flc
+usr/share/figlet/hz.flc
+usr/share/figlet/ilhebrew.flc
+usr/share/figlet/ivrit.flf
+usr/share/figlet/jis0201.flc
+usr/share/figlet/koi8r.flc
+usr/share/figlet/lean.flf
+usr/share/figlet/mini.flf
+usr/share/figlet/mnemonic.flf
+usr/share/figlet/moscow.flc
+usr/share/figlet/script.flf
+usr/share/figlet/shadow.flf
+usr/share/figlet/slant.flf
+usr/share/figlet/small.flf
+usr/share/figlet/smscript.flf
+usr/share/figlet/smshadow.flf
+usr/share/figlet/smslant.flf
+usr/share/figlet/standard.flf
+usr/share/figlet/term.flf
+usr/share/figlet/upper.flc
+usr/share/figlet/ushebrew.flc
+usr/share/figlet/uskata.flc
+usr/share/figlet/utf8.flc
+usr/share/man/man6/chkfont.6.gz
+usr/share/man/man6/figlet.6.gz
+usr/share/man/man6/showfigfonts.6.gz
+
+------------------
+
+Port Notes:
+
+----- version 2.2.2-2 -----
+- Recompiled with DEFAULTFONTDIR=/usr/share/figlet
+  Fixes bug http://cygwin.com/ml/cygwin/2007-08/msg00319.html
+- Makefile.patch: (clean): Added rm *.exe
+
+----- version 2.2.2-1 -----
+- New maintainer, 2007-08-06 Jari AaltoB
+- This is not actually a new release. The orígnal version was really
+  2.2.2, not 2.2
+- setup.hint description changed
+- Makefile: (install) target rewritten
+- No manual pages: showfigfonts.6, chkfont.6. Copied from Debian.
+
+----- version 2.2-1 -----
+- Initial release, Carl Ebrey
+
+Cygwin port maintained by: Jari Aalto <jari dt aalto A T cante dt net>

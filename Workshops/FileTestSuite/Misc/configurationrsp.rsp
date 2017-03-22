@@ -1,0 +1,23 @@
+# pdfaPilot 
+
+--noprogress 
+--nohits 
+--overwrite 
+--substitute 
+
+# Je nachdem wo wir unseren Fontfolder haben (Ich weiß noch nicht wo)
+# --fontfolder=/usr/openwin/lib/X11/fonts 
+
+# XML Output
+--report=XML,ALWAYS,${report_path}pdfaPilot_report.xml 
+
+# HTML output
+--report=HTML,ALWAYS,${report_path}pdfaPilot_report.html 
+
+--language=DE 
+
+# Konformität könnte auch auf 2b geändert werden
+--level=2b @pdf_dateien
+
+# Report im Eingangsordner
+--report=HTML,NOICONS,OPENRESULT

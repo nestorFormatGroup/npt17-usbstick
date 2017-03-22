@@ -1,0 +1,79 @@
+arj
+------------------------------------------
+
+Archiver for .arj files
+
+An open source version of the arj archiver. This version has been
+created with the intent to preserve maximum compatibility and retain
+the feature set of original ARJ archiver as provided by ARJ Software,
+Inc.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+  autoconf
+  automake
+
+Canonical homepage:
+  http://packages.debian.org/arj
+  http://www.sourceforge.net/projects/arj
+
+Canonical download:
+  See above
+
+Version control repository:
+  http://sourceforge.net/projects/arj/develop
+
+Mailing list:
+  http://sourceforge.net/projects/arj/support
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Andrew Belov <andrew_belov@newmail.ru>, <andrew_belov@users.sourceforge.net>
+  Bugs: http://sourceforge.net/tracker/?group_id=49820&atid=457564
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack arj-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./arj*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 3.10.22-3 -----
+- New release 2015-06-28 Jari Aalto
+- Includes debian-3.10.22-13 patches:
+  security_format.patch
+  security-afl.patch
+  security-traversal-dir.patch
+  security-traversal-symlink.patch  
+
+----- version 3.10.22-2 -----
+- New release 2013-09-11 user
+
+----- version 3.10.22-1 -----
+- Initial release 2009-12-09 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2009-2015 Jari Aalto; Licensed under GPL v2 or later

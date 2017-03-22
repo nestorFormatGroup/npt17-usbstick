@@ -1,0 +1,857 @@
+<!-- This page was created using the BlueLava ASP Script exec system. -->
+
+<html>
+
+<head>
+<title>Welcome To NC's 1st Congressional District</title>
+<link rel="stylesheet" type="text/css" href="http://butterfield.house.gov/SupportingFiles/style.css">
+</head>
+
+<body marginheight="14" topmargin="14" bottommargin="14" marginwidth="14" leftmargin="14" rightmargin="14" bgcolor="#ffffff" background="http://butterfield.house.gov/SupportingFiles/Images/gkbkgd.jpg">
+
+<!-- OPEN STARTER TABLE -->
+<div align="center">
+<table width="800" height="600" cellspacing="0" cellpadding="0" style="border:0px solid ;" bgcolor=""><tr><td valign="top">
+
+
+<!--  OPEN CUSTOM TABLE 2631  -->
+
+
+<!--  OPEN TABLE 2631 -->
+<table width="800" height="236" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="632" height="236" align="left" valign="top" colspan="1" style="">
+
+<!--  OPEN SITE NAVIGATION 2655  -->
+<div align="left">
+<table border="0" cellspacing="0" cellpadding="0">
+   <tr><td><span class="td"><a href='./default.asp'  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/sealtop.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:0;"></span></span></td><td class="td"><span class="td"><a href='./guestbook.asp' onMouseOver="status='Sign My Guestbook'; return true;" onMouseOut="status='';" title="Sign My Guestbook"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/guestbook.gif" border="0" hspace="0" vspace="0" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/guestbook2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/guestbook.gif'"></span></td>
+</tr>
+</table>
+</div>
+
+<!--  CLOSE SITE NAVIGATION 2655  -->
+<!-- ElementTimer 0.047 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2673  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/mastillus.jpg" alt="" hspace="0" vspace="0" border="0" width="632" height="157"></div>
+<!--  CLOSE IMAGE 2673  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+      <td width="154" height="236" align="left" valign="top" colspan="1" style="">
+
+<!--  OPEN IMAGE 2680  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/pictop.gif" alt="" hspace="0" vspace="0" border="0" width="154" height="22"></div>
+<!--  CLOSE IMAGE 2680  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN SLIDE SHOW 2685  -->
+<SCRIPT type="text/javascript" src="http://butterfield.house.gov/SupportingFiles/Scripts/slideshow.js"></SCRIPT>
+<SCRIPT language="JavaScript">
+<!--
+SLIDES2685 = new slideshow("SLIDES2685");
+
+SLIDES2685.timeout = 3000;
+SLIDES2685.repeat = true;
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/pic1.jpg";
+newSlide.text = "pic1.jpg";
+newSlide.attr = "height=186";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/pic2.jpg";
+newSlide.text = "pic2.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/Albemarle.jpg";
+newSlide.text = "Albemarle.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/beaufort.jpg";
+newSlide.text = "beaufort.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/edgecomb.jpg";
+newSlide.text = "edgecomb.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/halifax.jpg";
+newSlide.text = "halifax.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/lenoir.jpg";
+newSlide.text = "lenoir.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/martin.jpg";
+newSlide.text = "martin.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/nash.jpg";
+newSlide.text = "nash.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/roanoke.jpg";
+newSlide.text = "roanoke.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/vance.jpg";
+newSlide.text = "vance.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/wayne.jpg";
+newSlide.text = "wayne.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+
+newSlide = new slide();
+newSlide.src = "http://butterfield.house.gov/SupportingFiles/Images/elizabeth.jpg";
+newSlide.text = "elizabeth.jpg";
+newSlide.attr = "width=154";
+newSlide.filter = 'progid:DXImageTransform.Microsoft.Fade()';
+SLIDES2685.add_slide(newSlide);
+//-->
+</SCRIPT>
+
+<table border="0" cellpadding="0" cellspacing="0" width="154"><tr><td>
+<div id="SlideShow2685" width="154">
+<IMG name="SLIDESIMG2685" src="http://butterfield.house.gov/SupportingFiles/Images/pic1.jpg" border="0" alt="Slideshow image" align="center" style="filter:progid:DXImageTransform.Microsoft.Fade();"><br>
+</div>
+</td></tr></table>
+<SCRIPT TYPE="text/javascript">
+<!--
+if (document.images)
+{
+  SLIDES2685.set_image(document.images.SLIDESIMG2685);
+
+  var fadein_opacity = 0.04;
+  var fadein_img = SLIDES2685.image;
+  function fadein(opacity) {
+    if (typeof opacity != 'undefined') { fadein_opacity = opacity; }
+    if (fadein_opacity < 0.99 && fadein_img && fadein_img.style &&
+        typeof fadein_img.style.MozOpacity != 'undefined') {
+      fadein_opacity += .05;
+      fadein_img.style.MozOpacity = fadein_opacity;
+      setTimeout("fadein()", 50);
+    }
+  }
+
+  SLIDES2685.post_update_hook = function() { fadein(0.04); }
+
+  SLIDES2685.update();
+  SLIDES2685.play();
+}
+//-->
+</SCRIPT>
+
+<!--  CLOSE SLIDE SHOW 2685  -->
+<!-- ElementTimer 0.125 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2731  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/picbot.gif" alt="" hspace="0" vspace="0" border="0" width="154" height="28"></div>
+<!--  CLOSE IMAGE 2731  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+      <td width="14" height="236" align="left" valign="top" colspan="1" style="">
+
+<!--  OPEN IMAGE 2649  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/picside.gif" alt="" hspace="0" vspace="0" border="0" width="14" height="236"></div>
+<!--  CLOSE IMAGE 2649  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2631 -->
+<!-- TableTimer 0.484 seconds  -->
+
+
+<!--  CLOSE CUSTOM TABLE 2631  -->
+<!-- ElementTimer 31,533.590 seconds  -->
+
+
+
+
+<!--  OPEN DROP DOWN MENUS 2736  -->
+<script language="javascript">
+// generic variables used by both language type scripts
+var mm_cellcolor              = '#FFFFFF';
+var mm_highlightedcellcolor   = '#000000';
+var mm_textcolor              = '#000000';
+var mm_highlightedtextcolor   = '#FFFFFF';
+var sub_cellcolor             = '#6D604A';
+var sub_highlightedcellcolor  = '#990000';
+var sub_textcolor             = '#FFFFFF';
+var sub_highlightedtextcolor  = '#FFFFFF';
+</script>
+
+<script language="JavaScript1.2">
+    function mm_chCellOver(cellObject)
+    {
+	    cellObject.style.backgroundColor = mm_highlightedcellcolor;
+	    if (document.all) { cellObject.style.cursor="hand"; } else { cellObject.style.cursor = 'pointer'; } 
+    }
+
+    function mm_chCellOut(cellObject)
+    {
+	    cellObject.style.backgroundColor = mm_cellcolor;
+    }
+
+    function sub_chCellOver(cellObject)
+    {
+	    cellObject.style.backgroundColor = sub_highlightedcellcolor;
+	    if (document.all) { cellObject.style.cursor="hand"; } else { cellObject.style.cursor = 'pointer'; } 
+    }
+
+    function sub_chCellOut(cellObject)
+    {
+	    cellObject.style.backgroundColor = sub_cellcolor;
+    }
+</script>
+
+<script language="JavaScript">
+    function mm_changeColor(layername, highlight) {
+	    var newColor = mm_textcolor;
+
+	    if (highlight == true) { newColor = mm_highlightedtextcolor; }
+
+	    if (document.all) { 
+		    eval("document.all." + layername + ".style.color='" + newColor + "'");
+	    }
+	    else if (document.layers) {
+		    eval("document.layers['" + layername + "'].color='" + newColor + "'");
+	    }
+	    else if (document.getElementById) {
+		    eval("document.getElementById([layername]).style.color='" + newColor + "'");
+	    }
+    }
+
+    function sub_changeColor(layername, highlight) {
+	    var newColor = sub_textcolor;
+
+	    if (highlight == true) { newColor = sub_highlightedtextcolor; }
+
+	    if (document.all) { 
+		    eval("document.all." + layername + ".style.color='" + newColor + "'");
+	    }
+	    else if (document.layers) {
+		    eval("document.layers['" + layername + "'].color='" + newColor + "'");
+	    }
+	    else if (document.getElementById) {
+		    eval("document.getElementById([layername]).style.color='" + newColor + "'");
+	    }
+    }
+
+    function changeVisibility(layername, visible) {
+	    var visibleValue = "visible";
+
+	    if (visible == false) { visibleValue = "hidden"; }
+
+	    if (document.all) { 
+		    eval("document.all." + layername + ".style.visibility = '" + visibleValue + "'");
+	    }
+	    else if (document.layers) {
+		    eval("document.layers['" + layername + "'].visibility = '" + visibleValue + "'");
+	    }
+	    else if (document.getElementById) {
+		    eval("document.getElementById([layername]).style.visibility = '" + visibleValue + "'");
+	    }
+    }
+</script>
+
+<div id="themenudiv" style="position: relative; top: 0px; left: 0px;">
+<table border="0" style="width: 450px;" bgcolor="#000000" cellspacing="0" cellpadding="0">
+  <tr>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="mm_chCellOver(this); mm_changeColor('menu2743', true); changeVisibility('dropdownmenu2743', true);" onMouseout="mm_chCellOut(this); mm_changeColor('menu2743', false); changeVisibility('dropdownmenu2743', false);" onClick="location.href='#';">
+<a href='#'><font color="#000000" class="fnt3356"><div id="menu2743" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/navleft.gif" border="" hspace="" vspace=""></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='About G.K.'; mm_chCellOver(this); mm_changeColor('menu2745', true); changeVisibility('dropdownmenu2745', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2745', false); changeVisibility('dropdownmenu2745', false);" onClick="location.href='./aboutgk.asp';">
+<a href='./aboutgk.asp' onMouseover="status='About G.K.';  return true;" onMouseout="status=''; " title="About G.K."><font color="#000000" class="fnt3356"><div id="menu2745" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/about.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/about2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/about.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='Legislation & Issues'; mm_chCellOver(this); mm_changeColor('menu2751', true); changeVisibility('dropdownmenu2751', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2751', false); changeVisibility('dropdownmenu2751', false);" onClick="location.href='./legislationandissues.asp';">
+<a href='./legislationandissues.asp' onMouseover="status='Legislation & Issues';  return true;" onMouseout="status=''; " title="Legislation &amp; Issues"><font color="#000000" class="fnt3356"><div id="menu2751" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/legis.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/legis2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/legis.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='Constituent Services'; mm_chCellOver(this); mm_changeColor('menu2755', true); changeVisibility('dropdownmenu2755', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2755', false); changeVisibility('dropdownmenu2755', false);" onClick="location.href='./constituentservices.asp';">
+<a href='./constituentservices.asp' onMouseover="status='Constituent Services';  return true;" onMouseout="status=''; " title="Constituent Services"><font color="#000000" class="fnt3356"><div id="menu2755" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/const.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/const2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/const.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='Latest News'; mm_chCellOver(this); mm_changeColor('menu2759', true); changeVisibility('dropdownmenu2759', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2759', false); changeVisibility('dropdownmenu2759', false);" onClick="location.href='./latestnews.asp';">
+<a href='./latestnews.asp' onMouseover="status='Latest News';  return true;" onMouseout="status=''; " title="Latest News"><font color="#000000" class="fnt3356"><div id="menu2759" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/news.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/news2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/news.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='Photo Gallery'; mm_chCellOver(this); mm_changeColor('menu2763', true); changeVisibility('dropdownmenu2763', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2763', false); changeVisibility('dropdownmenu2763', false);" onClick="location.href='./photogallery.asp';">
+<a href='./photogallery.asp' onMouseover="status='Photo Gallery';  return true;" onMouseout="status=''; " title="Photo Gallery"><font color="#000000" class="fnt3356"><div id="menu2763" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/multi.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/multi2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/multi.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='Calendar'; mm_chCellOver(this); mm_changeColor('menu2767', true); changeVisibility('dropdownmenu2767', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2767', false); changeVisibility('dropdownmenu2767', false);" onClick="window.open('http://majoritywhip.house.gov/house_calendar/','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');">
+<a href='javascript:void(0);' onclick=javascript:window.open('http://majoritywhip.house.gov/house_calendar/','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseover="status='Calendar';  return true;" onMouseout="status=''; " title="Calendar"><font color="#000000" class="fnt3356"><div id="menu2767" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/calendar.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/calendar2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/calendar.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="status='1st District of NC'; mm_chCellOver(this); mm_changeColor('menu2771', true); changeVisibility('dropdownmenu2771', true);" onMouseout="status=''; mm_chCellOut(this); mm_changeColor('menu2771', false); changeVisibility('dropdownmenu2771', false);" onClick="location.href='./1stDistrictInfo.asp';">
+<a href='./1stDistrictInfo.asp' onMouseover="status='1st District of NC';  return true;" onMouseout="status=''; " title="1st District of NC"><font color="#000000" class="fnt3356"><div id="menu2771" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/1stdist.gif" border="" hspace="" vspace="" onMouseOver="this.src='http://butterfield.house.gov/supportingfiles/Images/1stdist2.gif'" onMouseOut="this.src='http://butterfield.house.gov/supportingfiles/Images/1stdist.gif'"></div></font></a>
+  </td>
+  <td style="width: 50px;" bgcolor="#FFFFFF" class="fnt3356" onMouseover="mm_chCellOver(this); mm_changeColor('menu2773', true); changeVisibility('dropdownmenu2773', true);" onMouseout="mm_chCellOut(this); mm_changeColor('menu2773', false); changeVisibility('dropdownmenu2773', false);" onClick="location.href='#';">
+<a href='#'><font color="#000000" class="fnt3356"><div id="menu2773" style="white-space:nowrap;"><img src="http://butterfield.house.gov/supportingfiles/Images/navright.gif" border="" hspace="" vspace=""></div></font></a>
+  </td>
+  </tr>
+</table>
+<div id="dropdownmenu2743" style="position: absolute; top: 18px; left: 0px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2743', false);" onMouseover="changeVisibility('dropdownmenu2743', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2745" style="position: absolute; top: 18px; left: 154px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2745', false);" onMouseover="changeVisibility('dropdownmenu2745', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Biography'; sub_chCellOver(this); sub_changeColor('menu3352', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3352', false);" onClick="location.href='./aboutgk.asp';" nowrap>
+<a href='./aboutgk.asp' onMouseover="status='Biography';  return true;" onMouseout="status=''; " title="Biography"><font color="#FFFFFF" class="fnt3356"><div id="menu3352">Biography</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Mini Biography'; sub_chCellOver(this); sub_changeColor('menu5393', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu5393', false);" onClick="location.href='./briefbio.asp';" nowrap>
+<a href='./briefbio.asp' onMouseover="status='Mini Biography';  return true;" onMouseout="status=''; " title="Mini Biography"><font color="#FFFFFF" class="fnt3356"><div id="menu5393">Mini-Biography</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Download High Resolution Photo'; sub_chCellOver(this); sub_changeColor('menu3354', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3354', false);" onClick="window.open('./SupportingFiles/images/gk_butterfield_hres.jpg','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" nowrap>
+<a href='javascript:void(0);' onclick=javascript:window.open('./SupportingFiles/images/gk_butterfield_hres.jpg','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseover="status='Download High Resolution Photo';  return true;" onMouseout="status=''; " title="Download High Resolution Photo"><font color="#FFFFFF" class="fnt3356"><div id="menu3354">High Resolution Photo</div></font></a>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2751" style="position: absolute; top: 18px; left: 227px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2751', false);" onMouseover="changeVisibility('dropdownmenu2751', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Committees'; sub_chCellOver(this); sub_changeColor('menu3361', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3361', false);" onClick="location.href='./committees.asp';" nowrap>
+<a href='./committees.asp' onMouseover="status='Committees';  return true;" onMouseout="status=''; " title="Committees"><font color="#FFFFFF" class="fnt3356"><div id="menu3361">Committees</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Issues: Business'; sub_chCellOver(this); sub_changeColor('menu3363', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3363', false);" onClick="location.href='./Issue_business.asp';" nowrap>
+<a href='./Issue_business.asp' onMouseover="status='Issues: Business';  return true;" onMouseout="status=''; " title="Issues: Business"><font color="#FFFFFF" class="fnt3356"><div id="menu3363">Issue: Business</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Issue: Education'; sub_chCellOver(this); sub_changeColor('menu3365', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3365', false);" onClick="location.href='./Issue_Education.asp';" nowrap>
+<a href='./Issue_Education.asp' onMouseover="status='Issue: Education';  return true;" onMouseout="status=''; " title="Issue: Education"><font color="#FFFFFF" class="fnt3356"><div id="menu3365">Issue: Education</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Issue: Housing'; sub_chCellOver(this); sub_changeColor('menu3367', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3367', false);" onClick="location.href='./Issue_Housing.asp';" nowrap>
+<a href='./Issue_Housing.asp' onMouseover="status='Issue: Housing';  return true;" onMouseout="status=''; " title="Issue: Housing"><font color="#FFFFFF" class="fnt3356"><div id="menu3367">Issue: Housing</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Issue: Medicare'; sub_chCellOver(this); sub_changeColor('menu3369', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3369', false);" onClick="location.href='./Issue_Medicare.asp';" nowrap>
+<a href='./Issue_Medicare.asp' onMouseover="status='Issue: Medicare';  return true;" onMouseout="status=''; " title="Issue: Medicare"><font color="#FFFFFF" class="fnt3356"><div id="menu3369">Issue: Medicare</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Issue: Social Security'; sub_chCellOver(this); sub_changeColor('menu3371', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3371', false);" onClick="location.href='#';" nowrap>
+<a href='#' onMouseover="status='Issue: Social Security';  return true;" onMouseout="status=''; " title="Issue: Social Security"><font color="#FFFFFF" class="fnt3356"><div id="menu3371">Issue: Social Security</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Issue: Tobacco Buy-Out'; sub_chCellOver(this); sub_changeColor('menu5214', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu5214', false);" onClick="location.href='./Issue_TobaccoBuyout.asp';" nowrap>
+<a href='./Issue_TobaccoBuyout.asp' onMouseover="status='Issue: Tobacco Buy-Out';  return true;" onMouseout="status=''; " title="Issue: Tobacco Buy-Out"><font color="#FFFFFF" class="fnt3356"><div id="menu5214">Issue: Tobacco Buy-Out</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Veterans'; sub_chCellOver(this); sub_changeColor('menu5212', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu5212', false);" onClick="location.href='./casework_veterans.asp';" nowrap>
+<a href='./casework_veterans.asp' onMouseover="status='Veterans';  return true;" onMouseout="status=''; " title="Veterans"><font color="#FFFFFF" class="fnt3356"><div id="menu5212">Issue: Veterans</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Sponsored Legislation'; sub_chCellOver(this); sub_changeColor('menu3373', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3373', false);" onClick="window.open('http://thomas.loc.gov/cgi-bin/bdquery/R?d110:FLD003:@1(Rep+Butterfield+G.+K.):','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" nowrap>
+<a href='javascript:void(0);' onclick=javascript:window.open('http://thomas.loc.gov/cgi-bin/bdquery/R?d110:FLD003:@1(Rep+Butterfield+G.+K.):','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseover="status='Sponsored Legislation';  return true;" onMouseout="status=''; " title="Sponsored Legislation"><font color="#FFFFFF" class="fnt3356"><div id="menu3373">Sponsored Legislation</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Co-Sponsored Legislation'; sub_chCellOver(this); sub_changeColor('menu3375', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3375', false);" onClick="window.open('http://thomas.loc.gov/cgi-bin/bdquery/R?d110:FLD004:@1(Rep+Butterfield+G.+K.):','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" nowrap>
+<a href='javascript:void(0);' onclick=javascript:window.open('http://thomas.loc.gov/cgi-bin/bdquery/R?d110:FLD004:@1(Rep+Butterfield+G.+K.):','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseover="status='Co-Sponsored Legislation';  return true;" onMouseout="status=''; " title="Co-Sponsored Legislation"><font color="#FFFFFF" class="fnt3356"><div id="menu3375">Co-Sponsored Legislation</div></font></a>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2755" style="position: absolute; top: 18px; left: 347px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2755', false);" onMouseover="changeVisibility('dropdownmenu2755', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Casework'; sub_chCellOver(this); sub_changeColor('menu3540', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3540', false);" onClick="location.href='./casework.asp';" nowrap>
+<a href='./casework.asp' onMouseover="status='Casework';  return true;" onMouseout="status=''; " title="Casework"><font color="#FFFFFF" class="fnt3356"><div id="menu3540">Casework</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Grants & Federal Domestic Assistance'; sub_chCellOver(this); sub_changeColor('menu3542', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3542', false);" onClick="location.href='./grants.asp';" nowrap>
+<a href='./grants.asp' onMouseover="status='Grants & Federal Domestic Assistance';  return true;" onMouseout="status=''; " title="Grants &amp; Federal Domestic Assistance"><font color="#FFFFFF" class="fnt3356"><div id="menu3542">Grants & Federal Domestic Assistance</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Immigration'; sub_chCellOver(this); sub_changeColor('menu3716', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3716', false);" onClick="location.href='./casework_citizenship.asp';" nowrap>
+<a href='./casework_citizenship.asp' onMouseover="status='Immigration';  return true;" onMouseout="status=''; " title="Immigration"><font color="#FFFFFF" class="fnt3356"><div id="menu3716">Immigration</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Internships'; sub_chCellOver(this); sub_changeColor('menu3718', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3718', false);" onClick="location.href='./Internships.asp';" nowrap>
+<a href='./Internships.asp' onMouseover="status='Internships';  return true;" onMouseout="status=''; " title="Internships"><font color="#FFFFFF" class="fnt3356"><div id="menu3718">Internships</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Order a Flag'; sub_chCellOver(this); sub_changeColor('menu3720', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3720', false);" onClick="location.href='./orderaflag.asp';" nowrap>
+<a href='./orderaflag.asp' onMouseover="status='Order a Flag';  return true;" onMouseout="status=''; " title="Order a Flag"><font color="#FFFFFF" class="fnt3356"><div id="menu3720">Order a Flag</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Passports'; sub_chCellOver(this); sub_changeColor('menu3768', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3768', false);" onClick="location.href='./Passports.asp';" nowrap>
+<a href='./Passports.asp' onMouseover="status='Passports';  return true;" onMouseout="status=''; " title="Passports"><font color="#FFFFFF" class="fnt3356"><div id="menu3768">Passports</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Senior Citizens'; sub_chCellOver(this); sub_changeColor('menu3770', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3770', false);" onClick="location.href='./seniorcitizens.asp';" nowrap>
+<a href='./seniorcitizens.asp' onMouseover="status='Senior Citizens';  return true;" onMouseout="status=''; " title="Senior Citizens"><font color="#FFFFFF" class="fnt3356"><div id="menu3770">Senior Citizens</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Service Academy Nominations'; sub_chCellOver(this); sub_changeColor('menu3867', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3867', false);" onClick="location.href='./serviceacademies.asp';" nowrap>
+<a href='./serviceacademies.asp' onMouseover="status='Service Academy Nominations';  return true;" onMouseout="status=''; " title="Service Academy Nominations"><font color="#FFFFFF" class="fnt3356"><div id="menu3867">Service Academy Nominations</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Student Financial Aid'; sub_chCellOver(this); sub_changeColor('menu3869', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3869', false);" onClick="location.href='./studentfinacialaid.asp';" nowrap>
+<a href='./studentfinacialaid.asp' onMouseover="status='Student Financial Aid';  return true;" onMouseout="status=''; " title="Student Financial Aid"><font color="#FFFFFF" class="fnt3356"><div id="menu3869">Student Financial Aid</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Veterans'; sub_chCellOver(this); sub_changeColor('menu3931', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3931', false);" onClick="location.href='./casework_veterans.asp';" nowrap>
+<a href='./casework_veterans.asp' onMouseover="status='Veterans';  return true;" onMouseout="status=''; " title="Veterans"><font color="#FFFFFF" class="fnt3356"><div id="menu3931">Veterans</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Visiting Washington, D.C.'; sub_chCellOver(this); sub_changeColor('menu3933', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu3933', false);" onClick="location.href='./visitingDC.asp';" nowrap>
+<a href='./visitingDC.asp' onMouseover="status='Visiting Washington, D.C.';  return true;" onMouseout="status=''; " title="Visiting Washington, D.C."><font color="#FFFFFF" class="fnt3356"><div id="menu3933">Visiting Washington, D.C.</div></font></a>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2759" style="position: absolute; top: 18px; left: 469px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2759', false);" onMouseover="changeVisibility('dropdownmenu2759', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Newsletters'; sub_chCellOver(this); sub_changeColor('menu5452', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu5452', false);" onClick="location.href='./newsletters.asp';" nowrap>
+<a href='./newsletters.asp' onMouseover="status='Newsletters';  return true;" onMouseout="status=''; " title="Newsletters"><font color="#FFFFFF" class="fnt3356"><div id="menu5452">Newsletters</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='Sign up for email updates'; sub_chCellOver(this); sub_changeColor('menu10582', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu10582', false);" onClick="location.href='./emailupdates.asp';" nowrap>
+<a href='./emailupdates.asp' onMouseover="status='Sign up for email updates';  return true;" onMouseout="status=''; " title="Sign up for email updates"><font color="#FFFFFF" class="fnt3356"><div id="menu10582">Sign Up For Email Updates</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="sub_chCellOver(this); sub_changeColor('menu13371', true);" onMouseout="sub_chCellOut(this); sub_changeColor('menu13371', false);" onClick="location.href='./latestnews.asp';" nowrap>
+<a href='./latestnews.asp'><font color="#FFFFFF" class="fnt3356"><div id="menu13371">News Releases</div></font></a>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2763" style="position: absolute; top: 20px; left: -1px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2763', false);" onMouseover="changeVisibility('dropdownmenu2763', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2767" style="position: absolute; top: 20px; left: -1px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2767', false);" onMouseover="changeVisibility('dropdownmenu2767', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2771" style="position: absolute; top: 18px; left: 693px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2771', false);" onMouseover="changeVisibility('dropdownmenu2771', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='About the 1st District'; sub_chCellOver(this); sub_changeColor('menu4581', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu4581', false);" onClick="location.href='./1stDistrictInfo.asp';" nowrap>
+<a href='./1stDistrictInfo.asp' onMouseover="status='About the 1st District';  return true;" onMouseout="status=''; " title="About the 1st District"><font color="#FFFFFF" class="fnt3356"><div id="menu4581">About the 1st District</div></font></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="#6D604A" class="fnt3356" onMouseover="status='District Map'; sub_chCellOver(this); sub_changeColor('menu4583', true);" onMouseout="status=''; sub_chCellOut(this); sub_changeColor('menu4583', false);" onClick="window.open('http://nationalatlas.gov/asp/cd_popups.asp?imgFile=../printable/images/preview/congdist/NC01_110.gif&imgw=750&imgh=452','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" nowrap>
+<a href='javascript:void(0);' onclick=javascript:window.open('http://nationalatlas.gov/asp/cd_popups.asp?imgFile=../printable/images/preview/congdist/NC01_110.gif&imgw=750&imgh=452','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseover="status='District Map';  return true;" onMouseout="status=''; " title="District Map"><font color="#FFFFFF" class="fnt3356"><div id="menu4583">District Map</div></font></a>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</div>
+<div id="dropdownmenu2773" style="position: absolute; top: 0px; left: -1px; visibility: hidden; background: #6D604A;">
+<table border="0" cellspacing="0" cellpadding="0" onMouseOut="changeVisibility('dropdownmenu2773', false);" onMouseover="changeVisibility('dropdownmenu2773', true);" style="width: 50px;">
+   <tr><td>
+<table border="0" bgcolor="#E7E1BB" cellspacing="1" cellpadding="3" style="width: 50px;">
+</table>
+</td></tr>
+</table>
+</div>
+</div>
+
+<!--  CLOSE DROP DOWN MENUS 2736  -->
+<!-- ElementTimer 0.156 seconds  -->
+
+
+
+
+<!--  OPEN CUSTOM TABLE 2775  -->
+
+
+<!--  OPEN TABLE 2775 -->
+<table width="800" height="28" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="626" height="100%" align="left" valign="top" colspan="1" style="">
+
+<!--  OPEN SITE NAVIGATION 2788  -->
+<div align="left">
+<table border="0" cellspacing="0" cellpadding="0">
+   <tr><td><span class="td"><a href='./default.asp' onMouseOver="status='Go To Home Page'; return true;" onMouseOut="status='';" title="Go To Home Page"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/home.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:0;"></span></span></td><td class="td"><span class="td"><a href='./contactinfo.asp' onMouseOver="status='Contact G.K.'; return true;" onMouseOut="status='';" title="Contact G.K."  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/contact.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:0;"></span></span></td><td class="td"><span class="td"><a href='./scheduleappointment.asp' onMouseOver="status='Schedule an Appointment'; return true;" onMouseOut="status='';" title="Schedule an Appointment"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/schedtickets.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:0;"></span></span></td><td class="td"><span class="td"><a href='#'  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/homespace.gif" border="0" hspace="0" vspace="0"></span></td>
+</tr>
+</table>
+</div>
+
+<!--  CLOSE SITE NAVIGATION 2788  -->
+<!-- ElementTimer 0.047 seconds  -->
+
+
+</td>
+      <td width="164" height="100%" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style=""></td>
+      <td width="10" height="100%" align="left" valign="top" colspan="1" style="">
+
+<!--  OPEN IMAGE 2801  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/homeright.gif" alt="" hspace="0" vspace="0" border="0" width="10" height="28"></div>
+<!--  CLOSE IMAGE 2801  -->
+<!-- ElementTimer 0.047 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2775 -->
+<!-- TableTimer 0.156 seconds  -->
+
+
+<!--  CLOSE CUSTOM TABLE 2775  -->
+<!-- ElementTimer 31,534.000 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2808  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/topline.gif" alt="" hspace="0" vspace="0" border="0" width="800" height="4"></div>
+<!--  CLOSE IMAGE 2808  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN CUSTOM TABLE 2813  -->
+
+
+<!--  OPEN TABLE 2813 -->
+<table width="800" height="31" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="800" height="31" align="left" valign="middle" colspan="1" style="background-image: url(http://butterfield.house.gov/SupportingFiles/Images/marqfill.gif);background-repeat: no-repeat;">
+
+<!--  OPEN SCROLLING MARQUEE 2822  -->
+<marquee direction=left behavior=scroll class="fnt2827" scrollAmount=3 hSpace=0 vSpace=0>Welcome to the Website for the First Congressional District of North Carolina!</marquee>
+<!--  CLOSE SCROLLING MARQUEE 2822  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2813 -->
+<!-- TableTimer 0.078 seconds  -->
+
+
+<!--  CLOSE CUSTOM TABLE 2813  -->
+<!-- ElementTimer 31,534.170 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2829  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/botline.gif" alt="" hspace="0" vspace="0" border="0" width="800" height="13"></div>
+<!--  CLOSE IMAGE 2829  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN CUSTOM TABLE 2834  -->
+
+
+<!--  OPEN TABLE 2834 -->
+<table width="800" height="100" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="417" height="100" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="">
+
+<!--  OPEN IMAGE 2847  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/welcome.gif" alt="" hspace="0" vspace="0" border="0" width="417" height="234"></div>
+<!--  CLOSE IMAGE 2847  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN CUSTOM TABLE 2914  -->
+
+
+<!--  OPEN TABLE 2914 -->
+<table width="417" height="150" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="146" height="150" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="background-image: url(http://butterfield.house.gov/SupportingFiles/Images/issuedotfill.gif);background-repeat: repeat-y;">
+
+<!--  OPEN IMAGE 2904  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/issueheader.gif" alt="" hspace="0" vspace="0" border="0" width="130" height="19"></div>
+<!--  CLOSE IMAGE 2904  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN TEXT EDITOR 2909  -->
+<span class="td" style="padding: 15px;display:block;"><DIV><STRONG>::</STRONG> <A href="econrecovery.asp">Economic Recovery and Reinvestment Act</A></DIV></span>
+<!--  CLOSE TEXT EDITOR 2909  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+      <td width="271" height="150" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="">
+
+<!--  OPEN IMAGE 10577  -->
+<div width="100%" align="center"><a href='./emailupdates.asp'><img src="http://butterfield.house.gov/SupportingFiles/Images/emailupdate.gif" alt="Click here to sign up for email updates" hspace="0" vspace="0" border="0" width="247" height="106"></a></div>
+<!--  CLOSE IMAGE 10577  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2931  -->
+<div width="100%" align="center"><a href='javascript:void(0);' onclick=javascript:window.open('http://energycommerce.house.gov/','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');><img src="http://butterfield.house.gov/SupportingFiles/Images/energycomm.gif" alt="" hspace="0" vspace="0" border="0" width="254" height="96"></a></div>
+<!--  CLOSE IMAGE 2931  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2914 -->
+<!-- TableTimer 0.250 seconds  -->
+
+
+<!--  CLOSE CUSTOM TABLE 2914  -->
+<!-- ElementTimer 31,534.640 seconds  -->
+
+
+</td>
+      <td width="383" height="100" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="background-image: url(http://butterfield.house.gov/SupportingFiles/Images/workfillmain.gif);background-repeat: repeat-y;">
+
+<!--  OPEN IMAGE 2861  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/workheader.gif" alt="" hspace="0" vspace="0" border="0" width="383" height="49"></div>
+<!--  CLOSE IMAGE 2861  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN CUSTOM TABLE 2866  -->
+
+
+<!--  OPEN TABLE 2866 -->
+<table width="383" height="100" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="192" height="100" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="">
+
+<!--  OPEN TEXT EDITOR 2877  -->
+<span class="td" style="padding: 5px;display:block;"><DIV><STRONG>:: </STRONG><A href="casework.asp">Casework Requests</A><BR><STRONG>:: </STRONG><A href="grants.asp">Grants &amp; Federal Assistance</A> <BR><STRONG>:: </STRONG><A href="orderaflag.asp">Flag Requests</A><BR><STRONG>:: </STRONG><A href="Internships.asp">Internships</A><BR><STRONG>:: </STRONG><A href="serviceacademies.asp">Service Academy Nominations</A><BR><STRONG>:: </STRONG><A href="Passports.asp">Passports</A></DIV>
+<DIV><STRONG>:: </STRONG><A href="casework_citizenship.asp">Immigration</A></DIV></span>
+<!--  CLOSE TEXT EDITOR 2877  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+      <td width="191" height="100" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="background-image: url(http://butterfield.house.gov/SupportingFiles/Images/workfill.gif);background-repeat: repeat-y;">
+
+<!--  OPEN TEXT EDITOR 2882  -->
+<span class="td" style="padding: 5px;display:block;"><DIV><STRONG>:: </STRONG><A onclick="javascript:window.open('http://thomas.loc.gov/cgi-bin/bdquery/R?d109:FLD003:@1(Rep+Butterfield+G.+K.):','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" href="javascript:void(0);">Sponsored Legislation</A><BR><STRONG>:: </STRONG><A onclick="javascript:window.open('http://thomas.loc.gov/cgi-bin/bdquery/R?d109:FLD004:@1(Rep+Butterfield+G.+K.):','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" href="javascript:void(0);">Co-sponsored Legislation</A><BR><STRONG>:: </STRONG><A href="committees.asp">Committees</A></DIV>
+<DIV><STRONG>::</STRONG>&nbsp;<A href="newsletters.asp">Weekly Newsletters</A></DIV>
+<DIV><STRONG>::</STRONG>&nbsp;<A onclick="javascript:window.open('./SupportingFiles/documents/Second_Chance_Act_of_2007.pdf','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" href="javascript:void(0);">Second Chance Act</A></DIV>
+<DIV><STRONG>::</STRONG>&nbsp;<A onclick="javascript:window.open('http://www.crs.gov/reference/general/grants/fed-business.html','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');" href="javascript:void(0);">Doing Business With the Federal Government</A></DIV></span>
+<!--  CLOSE TEXT EDITOR 2882  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2866 -->
+<!-- TableTimer 0.141 seconds  -->
+
+
+<!--  CLOSE CUSTOM TABLE 2866  -->
+<!-- ElementTimer 31,534.910 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2891  -->
+<div width="100%" align="left"><img src="http://butterfield.house.gov/SupportingFiles/Images/workline.gif" alt="" hspace="0" vspace="0" border="0" width="383" height="11"></div>
+<!--  CLOSE IMAGE 2891  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN IMAGE 2854  -->
+<div width="100%" align="left"><a href='javascript:void(0);' onclick=javascript:window.open('http://www.house.gov/apps/list/press/nc01_butterfield/RSS.xml','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1');><img src="http://butterfield.house.gov/SupportingFiles/Images/newsheader.gif" alt="Get News Via RSS" hspace="0" vspace="0" border="0" width="383" height="35"></a></div>
+<!--  CLOSE IMAGE 2854  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+
+
+<!--  OPEN HEADLINES 4724  -->
+<table cellspacing="0" cellpadding="0" border="0" Height="0" Width="383" align="Left">
+<tr>
+<td Height="0" Width="383" align="Left" valign="Top" style="">
+<div align="left" style="HEIGHT: 0px;WIDTH: 383px;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 8px;">
+<div class="td" style="margin-bottom:10px;"><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td class="td"><span class="td"><a href="latestnews.asp?ARTICLE3168=14336">Butterfield’s Statement on Stimulus</a></span> - 2/13/2009</td></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr></table></td></tr></table></div><div class="td" style="margin-bottom:10px;"><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td class="td"><span class="td"><a href="latestnews.asp?ARTICLE3168=14269">Digital Television Transition Delayed</a></span> - 2/4/2009</td></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr></table></td></tr></table></div><div class="td" style="margin-bottom:10px;"><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td class="td"><span class="td"><a href="latestnews.asp?ARTICLE3168=14267">Bipartisan Children’s Health Bill Heads to President Obama</a></span> - 2/4/2009</td></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr></table></td></tr></table></div><div class="td" style="margin-bottom:10px;"><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top"><td class="td"><span class="td"><a href="latestnews.asp?ARTICLE3168=14265">Butterfield Urges Family Farm Protections</a></span> - 2/3/2009</td></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr></table></td></tr></table></div>
+  </div></td></tr></table>
+<!--  CLOSE HEADLINES 4724  -->
+<!-- ElementTimer 0.078 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2834 -->
+<!-- TableTimer 0.859 seconds  -->
+
+
+  </div></td></tr></table>
+<!--  CLOSE CUSTOM TABLE 2834  -->
+<!-- ElementTimer 31,535.130 seconds  -->
+
+
+
+
+<!--  OPEN CUSTOM TABLE 2940  -->
+
+
+<!--  OPEN TABLE 2940 -->
+<table width="800" height="40" cellspacing="0" cellpadding="0" border="0" bordercolor="#CCCCCC">
+   <tr>
+      <td width="800" height="40" align="left" valign="top" colspan="1" bgcolor="#E7E1BB" style="background-image: url(http://butterfield.house.gov/SupportingFiles/Images/iconfill.gif);background-repeat: repeat-y; padding:8px;">
+
+<!--  OPEN SITE NAVIGATION 2949  -->
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+   <tr><td><span class="td"><a href='http://www.thecongressionalblackcaucus.com' onMouseOver="status='Congressional Black Caucus'; return true;" onMouseOut="status='';" title="Congressional Black Caucus"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/cbclogo.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:40;"></span></span></td><td class="td"><span class="td"><a href='javascript:void(0);' onclick=javascript:window.open('http://www.dems.gov/','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseOver="status='Democratic Caucus'; return true;" onMouseOut="status='';" title="Democratic Caucus"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/demcaucus.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:40;"></span></span></td><td class="td"><span class="td"><a href='javascript:void(0);' onclick=javascript:window.open('http://www.majoritywhip.gov/','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseOver="status='Visit The Majority Whip Website'; return true;" onMouseOut="status='';" title="Visit The Majority Whip Website"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/demwhip.gif" border="0" hspace="0" vspace="0"></span></td>
+<td><td><span class="td"><span style="margin-left:40;"></span></span></td><td class="td"><span class="td"><a href='javascript:void(0);' onclick=javascript:window.open('http://www.housedemocrats.gov','newWindow','menubar=1,toolbar=1,location=1,status=1,scrollbars=1,resizable=1'); onMouseOver="status='HouseDemocrats.gov'; return true;" onMouseOut="status='';" title="HouseDemocrats.gov"  class="td"><img src="http://butterfield.house.gov/supportingfiles/Images/housedems.gif" border="0" hspace="0" vspace="0"></span></td>
+</tr>
+</table>
+</div>
+
+<!--  CLOSE SITE NAVIGATION 2949  -->
+<!-- ElementTimer 0.031 seconds  -->
+
+
+</td>
+   </tr>
+</table>
+<!--  CLOSE TABLE 2940 -->
+<!-- TableTimer 0.078 seconds  -->
+
+
+<!--  CLOSE CUSTOM TABLE 2940  -->
+<!-- ElementTimer 31,535.230 seconds  -->
+
+
+
+</td></tr></table>
+</div>
+<!-- CLOSE STARTER TABLE -->
+
+</body>
+
+</html>
+<!-- PageTimer 2.203 seconds  -->

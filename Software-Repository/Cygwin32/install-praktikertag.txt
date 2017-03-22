@@ -1,0 +1,157 @@
+Installation Cygwin 32 Bit "Portable" für nestor-Praktikertag 2017
+==================================================================
+
+Stand: 22.3.2017, kramski@dla-marabch.de
+
+
+Voraussetzungen
+---------------
+
+	Windows 32 oder 64 >= Vista
+	
+	USB-Stick mit FAT32, (kein NTFS, da sonst Probleme mit Dateizugriffsrechten entstehen)
+
+	Der Laufwerksbuchstabe des USB-Stick wird im Betrieb dynamisch ermittelt. Bei der Installation war es H:.
+
+	Erwartet, dass Demo-Dateien für Formaterkennung usw. in H:\Workshops\FileTestSuite liegen.
+	
+	Dies eine Quick&Dirty-Lösung für den nestor-Praktikertag 2017 und keine produktive Cygwin-Umgebung.
+	(Korrekte Installation siehe https://cygwin.com/install.html).
+	
+
+Basisinstallation 
+-----------------
+
+	Download
+		https://cygwin.com/setup-x86.exe
+	nach
+		H:\Software-Repository\Cygwin32
+		
+	setup-x86.exe ausführen
+		Root Directory: H:\Portable\Cygwin
+		Local Package Directory: H:\Software-Repository\Cygwin32
+		Download Site: https://cygwin.mirror,constant.com
+			...
+		[ ] Create Icon on Desktop
+		[ ] Add Icon to Start Menu
+
+	Dies installiert grundlegende Tools (bash uvam.) aber auch schon "file".
+	
+	Installierte Größe: ca. 160 MB
+	Downloads: ca. 32 MB
+
+		
+Weitere Tools (für dLZA u.a.)
+-----------------------------
+
+	setup-x86.exe ausführen
+		View: Full
+			ImageMagick
+			arj
+			cabextract
+			ddrescue
+			dos2unix
+			exif
+			exiv2
+			figlet
+			git
+			jpeg
+			lynx
+			md5deep
+			mediainfo
+			nano
+			pngcheck
+			rcs
+			recode
+			rsync
+			tiff
+			unzip
+			vim
+			
+	Installierte Größe damit nun: ca. 814 MB
+	Downloads: ca. 105 MB
+
+	
+Sonderfall gvfs-info
+--------------------
+
+	setup-x86.exe ausführen
+		View: Full
+			gvfs
+		[ ] Select required Packages 
+			(sonst werden _massig_ GNOME-GUI-Pakete nachgezogen, die man für CLI nicht braucht!)
+			
+			
+		
+Anpassungen für Praktikertag
+----------------------------
+
+	H:\Portable\Cygwin\cygwin.bat anlegen/ersetzen durch:
+		:: Quasi-"Portable-Cygwin" vom USB-Stick starten
+		::
+		:: kramski@dla-marbach.de 22.03.2017
+
+		@echo off
+
+		setlocal
+		set MyDrv=%~d0
+		set MyPath=%~dp0
+		path %MyPath%\bin;%PATH%
+
+		set DemoFilesPath=%MyDrv%\Workshops\FileTestSuite
+
+		%MyDrv%
+		cd %MyPath%\bin
+
+		:: Start bash as login shell:
+		mintty.exe -s 96,30 -i /Cygwin-Terminal.ico -
+
+		if errorlevel 1 goto ERROR
+		goto EXIT
+
+		:ERROR
+		:: Moep...
+
+		:EXIT
+		endlocal
+
+	H:\Portable\Cygwin\etc\profile.d\nestor.sh anlegen:
+		alias ll='ls -la --color=auto'
+		alias dir='ls -la --color=auto'
+		alias md='mkdir'
+
+		echo "Cygwin -" | figlet
+		cat << *EOF
+
+		Get that Linux feeling - on Windows! (https://cygwin.com/)
+
+		Willkommen zur portablen Cygwin-Installation für den nestor-Praktikertag 2017.
+
+		Dies ist eine Quick&Dirty-Lösung, um einige interessante Linux-Tools unaufwändig 
+		unter Windows testen zu können. Für ernsthaftes Arbeiten empfehlen wir eine "echte" 
+		Linux-Distribution (https://distrochooser.de/) oder zumindest eine korrekte 
+		Cygwin-Installation (https://cygwin.com/install.html).
+
+		Windows-Laufwerksbuchstaben werden in Cygwin als Ordner angesprochen. Laufwerk C: 
+		z.B. ist /cygdrive/c. Um also etwa eine Datei test.txt auf eimem USB-Stick E: im 
+		Ordner E:\Temp mit dem Kommando "file" zu inspizieren, geben Sie ein:
+		   cd /cygdrive/e/Temp
+		   file test.txt
+		   
+		Im Ordner $(cygpath "$DemoFilesPath") haben wir 100 Beispieldateien 
+		aller Art gesammelt, die Sie untersuchen können.
+
+		Sie können dieses Fenster jederzeit mit dem Kommando "logout" schließen.
+		*EOF
+
+		cd $(cygpath "$DemoFilesPath")
+	
+	H:\Workshops\FileTestSuite\my-gvfs-info.sh anlegen:
+		#!/bin/sh
+		# run gvfs-info on NestorFormatGroup's FileTestSuite and reformat results as tab separated value
+		# kramski@dla-marbach.de 22.03.2017
+		# To be run in /cygdrive/?/Workshops/FileTestSuite, having files as ./Misc/*, ./Images/* etc.
+
+		printf "Name\tMimetype\n"
+		find . -mindepth 1 -type f -exec sh -c 'gvfs-info {} | grep "standard::name\|standard::content-type" | cut -f4 -d" " | paste - - ' \;
+

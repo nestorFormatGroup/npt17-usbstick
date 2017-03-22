@@ -1,0 +1,3 @@
+device=vdidy004.sys /r
+device=vdi.sys
+

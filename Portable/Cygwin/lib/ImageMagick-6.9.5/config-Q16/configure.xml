@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuremap [
+<!ELEMENT configuremap (configure)+>
+<!ELEMENT configure (#PCDATA)>
+<!ATTLIST configure name CDATA #REQUIRED>
+<!ATTLIST configure value CDATA #REQUIRED>
+]>
+<configuremap>
+  <configure name="CC" value="gcc"/>
+  <configure name="CFLAGS" value="-I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16 -D_REENTRANT -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16  -I/usr/include/openjpeg-2.1  -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16     -fopenmp -ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/build=/usr/src/debug/ImageMagick-6.9.5.7-2 -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7=/usr/src/debug/ImageMagick-6.9.5.7-2 -Wall -mtune=ivybridge -fexceptions  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16"/>
+  <configure name="CODER_PATH" value="/usr/lib/ImageMagick-6.9.5/modules-Q16/coders"/>
+  <configure name="CONFIGURE_PATH" value="/etc/ImageMagick-6/"/>
+  <configure name="CONFIGURE" value="/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7/configure  '--srcdir=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7' '--prefix=/usr' '--exec-prefix=/usr' '--localstatedir=/var' '--sysconfdir=/etc' '--docdir=/usr/share/doc/ImageMagick' '--htmldir=/usr/share/doc/ImageMagick/html' '-C' '--enable-shared' '--disable-static' '--without-modules' '--with-quantum-depth=16' '--with-autotrace' '--with-bzlib' '--with-dps' '--with-fftw' '--with-fontconfig' '--with-fpx' '--with-freetype' '--with-gslib' '--with-gvc' '--with-jbig' '--with-jpeg' '--with-openjp2' '--with-lcms' '--with-lzma' '--with-pango' '--with-png' '--with-rsvg' '--with-tiff' '--without-wmf' '--with-x' '--with-xml' '--with-zlib' '--with-fontpath=/usr/share/fonts' '--with-gs-font-dir=/usr/share/ghostscript/fonts' '--with-windows-font-dir=/usr/share/fonts/TTF' '--with-perl' '--with-perl-options=INSTALLDIRS=vendor' 'CC=gcc' 'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/build=/usr/src/debug/ImageMagick-6.9.5.7-2 -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7=/usr/src/debug/ImageMagick-6.9.5.7-2' 'LDFLAGS=' 'LIBS=' 'CPPFLAGS=' 'CXX=g++' 'CXXFLAGS=-ggdb -O2 -pipe -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/build=/usr/src/debug/ImageMagick-6.9.5.7-2 -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7=/usr/src/debug/ImageMagick-6.9.5.7-2'"/>
+  <configure name="COPYRIGHT" value="Copyright (C) 1999-2016 ImageMagick Studio LLC"/>
+  <configure name="CPPFLAGS" value="-I/usr/include/ImageMagick-6"/>
+  <configure name="CXXFLAGS" value="-ggdb -O2 -pipe -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/build=/usr/src/debug/ImageMagick-6.9.5.7-2 -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7=/usr/src/debug/ImageMagick-6.9.5.7-2 "/>
+  <configure name="CXX" value="g++"/>
+  <configure name="DEFS" value="-DHAVE_CONFIG_H"/>
+  <configure name="DELEGATES" value="autotrace bzlib mpeg fftw fpx fontconfig freetype gslib jbig jng jpeg lcms lzma openjp2 pango png ps rsvg tiff webp x xml zlib"/>
+  <configure name="DISTCHECK_CONFIG_FLAGS" value="'CC=gcc' 'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/build=/usr/src/debug/ImageMagick-6.9.5.7-2 -fdebug-prefix-map=/pub/devel/imagemagick/ImageMagick-6.9.5.7-2.i686/src/ImageMagick-6.9.5-7=/usr/src/debug/ImageMagick-6.9.5.7-2' 'CPPFLAGS=' 'CXX=g++' 'LDFLAGS=' 'LIBS='  --disable-deprecated  --with-quantum-depth=16  --with-jemalloc=no  --with-umem=no  --with-fontpath=/usr/share/fonts  --with-gs-font-dir=/usr/share/ghostscript/fonts  --with-windows-font-dir=/usr/share/fonts/TTF  --with-wmf=no "/>
+  <configure name="DOCUMENTATION_PATH" value="/usr/share/doc/ImageMagick-6"/>
+  <configure name="EXEC-PREFIX" value="/usr"/>
+  <configure name="EXECUTABLE_PATH" value="/usr/bin"/>
+  <configure name="FEATURES" value="DPC Cipher OpenMP"/>
+  <configure name="FILTER_PATH" value="/usr/lib/ImageMagick-6.9.5/modules-Q16/filters"/>
+  <configure name="GIT_REVISION" value="10991" />
+  <configure name="HOST" value="i686-pc-cygwin"/>
+  <configure name="INCLUDE_PATH" value="/usr/include/ImageMagick-6"/>
+  <configure name="LDFLAGS" value="-L/usr/lib  "/>
+  <configure name="LIBRARY_PATH" value="/usr/lib/ImageMagick-6.9.5"/>
+  <configure name="LIBS" value=" -ljbig -llcms2 -ltiff -lfreetype  -ljpeg -lgs  -lpng16 -lautotrace -lpng -lz -lm -lMagickCore-6.Q16 -lming -lm -lpstoedit -lpng -lstdc++ -ldl  -lfftw3  -lfpx -lfontconfig -lfreetype -lwebp   -lXext -lXt   -lSM -lICE -lX11  -llzma -lbz2  -lopenjp2 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lcairo -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lcairo -lxml2  -lz -lgdi32 -lm -lgomp    "/>
+  <configure name="LIB_VERSION_NUMBER" value="6,9,5,7"/>
+  <configure name="LIB_VERSION" value="0x695"/>
+  <configure name="NAME" value="ImageMagick"/>
+  <configure name="PCFLAGS" value="-fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16"/>
+  <configure name="PREFIX" value="/usr"/>
+  <configure name="QuantumDepth" value="16"/>
+  <configure name="RELEASE_DATE" value="2016-12-23"/>
+  <configure name="SHAREARCH_PATH" value="/usr/lib/ImageMagick-6.9.5/config-Q16"/>
+  <configure name="SHARE_PATH" value="/usr/share/ImageMagick-6"/>
+  <configure name="TARGET_CPU" value="i686"/>
+  <configure name="TARGET_OS" value="cygwin"/>
+  <configure name="TARGET_VENDOR" value="pc"/>
+  <configure name="VERSION" value="6.9.5"/>
+  <configure name="WEBSITE" value="http://www.imagemagick.org"/>
+</configuremap>

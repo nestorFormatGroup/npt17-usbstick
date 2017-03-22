@@ -1,0 +1,8 @@
+if [ ! -f /etc/vimrc ]
+then
+    /usr/bin/mkdir -p /etc
+    /usr/bin/cp /etc/defaults/etc/vimrc /etc/vimrc
+fi
+
+rm -f /usr/share/icons/hicolor/icon-theme.cache
+rm -f /usr/share/icons/locolor/icon-theme.cache

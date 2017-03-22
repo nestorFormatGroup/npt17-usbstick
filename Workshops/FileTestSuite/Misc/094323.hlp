@@ -1,0 +1,67 @@
+TERM - Sets the state of a McIDAS toggle command
+   TERM toggle state
+Parameters:
+   toggle | one of the letters J, K, L, O, W, Y, Z, SCALE or IG
+   state | OFF or ON to switch the toggle off/on (def=ON)
+
+  toggle  Function                                ON           OFF
+  ------- ------------------------------------  ----------   ----------
+     J    toggles graphics to loop control      connect      disconnect
+     K    toggles the image frames on/off       visible      blank
+     L    toggles frame looping on/off          start        stop
+     O    displays the opposite image frame     opposite     base
+     W    toggles the graphics frames on/off    visible      blank
+     Y    toggles image frames to loop control  connect      disconnect
+     Z    toggles the zoom function on/off      on           off
+   SCALE  toggle the image display mode         scale        preserve
+    IG    toggles independent graphics on/off   independent  imbedded
+Remarks:
+   TERM is typically used in strings and macros when the current state
+   of the workstation is not known.
+
+   The SCALE option determines how image levels are displayed when there
+   are more image levels than display levels. SCALE OFF preserves image
+   levels greater than the number of graphics levels. Image levels less
+   than or equal to the number of graphics levels are not preserved: they
+   are converted to the image level equal to the number of graphics levels
+   plus one. For example, if McIDAS is started with 16 graphics levels,
+   SCALE OFF converts image levels 0 to 16 to image level 17. Image levels
+   18 to 255 are preserved, meaning they can be individually enhanced with
+   the EU command. The SCALE OFF option is useful if the image you want to
+   display contains little or no information in the lower end of the 0 to
+   255 range of image levels.
+
+   SCALE ON preserves the same number of image levels as SCALE OFF, but
+   it spreads the non-preserved image levels evenly over the entire 0 to
+   255 range. It does this by binning some image levels to adjacent image
+   levels. The binning occurs in cases where the number of displayable
+   image levels (set with the -imageColors flag in .mcidasrc) is less than
+   255. When enhancing a single image level with EU, one or more image
+   levels may be enhanced due the binning of image levels. SCALE ON
+   is most useful if the image you want to display contains important
+   information in the lower end of the 0 to 255 range. SCALE ON is the
+   default when you start a McIDAS session.
+
+   With TERM IG OFF (the default at startup), frames display both images
+   and graphics.  There are no separate image and graphics frames.
+   Therefore, you cannot display or loop images or graphics independently,
+   and commands like J, Y, LB G, LS G and SG are not valid.
+
+   TERM IG ON creates separate image and graphics frames, so you can
+   display or loop them independently. This mode is most beneficial for
+   users who create loops of co-located images because they don't have
+   to draw the same map on every frame. Instead, they can draw the map
+   on a single graphics frame and display only that graphics frame while
+   looping through their series of image frames. Commands J, Y, LB G,
+   LS G and SG are all valid in this mode.
+
+   You should specify   -c 'TERM IG OFF'  or  -c 'TERM IG ON'   in your
+   .mcidasrc file to have McIDAS automatically come up in the desired
+   mode. Setting this option outside of the .mcidasrc file is not
+   recommended. TERM IG can be entered when you first bring up McIDAS
+   prior to running any image or graphic display commands. Changing modes
+   after running image or graphic display commands can yield unpredictable
+   results. Problems are more likely to arise if you switch from ON
+   to OFF than from OFF to ON. If problems do arise, it's best to EXIT
+   and restart McIDAS.
+----------
