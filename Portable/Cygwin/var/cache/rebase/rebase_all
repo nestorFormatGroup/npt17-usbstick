@@ -61,6 +61,8 @@
 /usr/bin/cyggs-9.dll
 /usr/bin/cyggssapi_krb5-2.dll
 /usr/bin/cyggthread-2.0-0.dll
+/usr/bin/cyggvfscommon.dll
+/usr/bin/cyggvfsdaemon.dll
 /usr/bin/cygharfbuzz-0.dll
 /usr/bin/cygidn-11.dll
 /usr/bin/cygidn2-0.dll
@@ -127,6 +129,8 @@
 /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/cygpixbufloader-xbm.dll
 /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/cygpixbufloader-xpm.dll
 /usr/lib/gio/modules/cyggiofam.dll
+/usr/lib/gio/modules/cyggioremote-volume-monitor.dll
+/usr/lib/gio/modules/cyggvfsdbus.dll
 /usr/lib/perl5/5.22/i686-cygwin-threads-64int/auto/B/B.dll
 /usr/lib/perl5/5.22/i686-cygwin-threads-64int/auto/Cwd/Cwd.dll
 /usr/lib/perl5/5.22/i686-cygwin-threads-64int/auto/Data/Dumper/Dumper.dll

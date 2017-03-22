@@ -137,10 +137,10 @@
 /usr/bin/cygzen-0.dll
 /usr/bin/cygzip-2.dll
 /usr/bin/cygrecode-0.dll
-#/usr/bin/cyggvfscommon.dll
-#/usr/bin/cyggvfsdaemon.dll
-#/usr/lib/gio/modules/cyggioremote-volume-monitor.dll
-#/usr/lib/gio/modules/cyggvfsdbus.dll
+##/usr/bin/cyggvfscommon.dll
+##/usr/bin/cyggvfsdaemon.dll
+##/usr/lib/gio/modules/cyggioremote-volume-monitor.dll
+##/usr/lib/gio/modules/cyggvfsdbus.dll
 /usr/bin/cygdb-5.3.dll
 /usr/bin/cygdb_cxx-5.3.dll
 /usr/bin/cygdb_sql-5.3.dll
@@ -245,3 +245,7 @@
 /usr/lib/python2.7/lib-dynload/_ssl.dll
 /usr/lib/python2.7/lib-dynload/_struct.dll
 /usr/lib/python2.7/lib-dynload/_testcapi.dll
+/usr/bin/cyggvfscommon.dll
+/usr/bin/cyggvfsdaemon.dll
+/usr/lib/gio/modules/cyggioremote-volume-monitor.dll
+/usr/lib/gio/modules/cyggvfsdbus.dll

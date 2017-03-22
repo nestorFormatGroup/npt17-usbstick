@@ -106,3 +106,54 @@ dir
 ls -la
 rm -rf .git
 ls -la
+cd /cygdrive/h
+ls
+git init
+ls 
+ls > .gitignore
+git config --global user.name "Heinz Kramski"
+git config --global user.email kramski@dla-marbach.de
+git config --global user.name "Heinz Kramski"
+git config --global user.name "Heinz Kramski"
+ls -la
+git status
+git add .
+git status
+git add --help
+git add -A .
+git status
+git add --all
+git status
+ls
+git status
+cd
+git clone /cygdrive/h
+ll
+cd h
+ll
+cd ..
+rm -rf h
+cd /cygdrive/h
+ls
+git add Portable/
+git status
+git add *
+nano .gitignore 
+nano .gitignore 
+git add .
+git status
+git status | less
+nano .gitignore 
+git status | wc -l
+git status | less
+git rm --cached "$Recycle.Bin/*"
+git rm --cached "$Recycle\.Bin/*"
+git rm --cached $Recycle.Bin/
+git rm --cached "\$Recycle.Bin/*"
+git rm --cached "System Volume Information"/*
+git status | grep Repository
+git commit
+git status
+add .gitignore
+git add .gitignore
+git status

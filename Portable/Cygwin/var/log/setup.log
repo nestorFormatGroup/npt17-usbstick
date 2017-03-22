@@ -610,3 +610,25 @@
 2017/03/22 15:13:57 Changing gid to Administrators
 2017/03/22 15:14:00 note: Installation Complete
 2017/03/22 15:14:00 Ending cygwin install
+2017/03/22 17:04:09 Starting cygwin install, version 2.877
+2017/03/22 17:04:09 User has backup/restore rights
+2017/03/22 17:04:09 Current Directory: H:\Software-Repository\Cygwin32
+2017/03/22 17:04:09 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/22 17:04:22 source: network install
+2017/03/22 17:04:23 root: H:\Portable\Cygwin system
+2017/03/22 17:04:23 Selected local directory: H:\Software-Repository\Cygwin32
+2017/03/22 17:04:24 net: Direct
+2017/03/22 17:04:24 site: http://cygwin.mirror.constant.com/
+2017/03/22 17:04:52 NOTE!  User refused suggested missing dependencies!  Expect some packages to give errors or not function at all.
+2017/03/22 17:04:57 Extracting from file://H:\Software-Repository\Cygwin32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86/release/gvfs/gvfs-1.26.3-2.tar.xz
+2017/03/22 17:05:11 Changing gid back to original
+2017/03/22 17:05:11 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/03/22 17:05:34 running: H:\Portable\Cygwin\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/03/22 17:05:35 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2017/03/22 17:05:36 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_fontconfig_cache_1.sh"
+2017/03/22 17:05:50 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2017/03/22 17:05:50 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/03/22 17:05:50 running: H:\Portable\Cygwin\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2017/03/22 17:05:51 Changing gid to Administrators
+2017/03/22 17:05:54 note: Installation Complete
+2017/03/22 17:05:54 Ending cygwin install
