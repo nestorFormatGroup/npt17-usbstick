@@ -157,3 +157,5 @@ git status
 add .gitignore
 git add .gitignore
 git status
+cd /cygdrive/h
+git status
