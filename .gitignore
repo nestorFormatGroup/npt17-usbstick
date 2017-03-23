@@ -1,3 +1,4 @@
 **/$Recycle.Bin/
 **/System Volume Information/
 **/home/*
+!**/tmp/

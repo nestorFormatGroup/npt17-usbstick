@@ -1,7 +1,7 @@
 Installation Cygwin 32 Bit "Portable" für nestor-Praktikertag 2017
 ==================================================================
 
-Stand: 22.3.2017, kramski@dla-marabch.de
+Stand: 23.3.2017, kramski@dla-marabch.de
 
 
 Voraussetzungen
@@ -153,5 +153,5 @@ Anpassungen für Praktikertag
 		# To be run in /cygdrive/?/Workshops/FileTestSuite, having files as ./Misc/*, ./Images/* etc.
 
 		printf "Name\tMimetype\n"
-		find . -mindepth 1 -type f -exec sh -c 'gvfs-info {} | grep "standard::name\|standard::content-type" | cut -f4 -d" " | paste - - ' \;
+		find . -mindepth 2 -type f -exec sh -c 'gvfs-info {} | grep "standard::name\|standard::content-type" | cut -f4 -d" " | paste - - ' \;
 
