@@ -9,8 +9,7 @@ set MyDrv=%~d0
 set MyPath=%~dp0
 path %MyPath%\bin;%PATH%
 
-set DemoFilesPath=%MyDrv%\Workshops\FileTestSuite
-
+set DemoFilesPath=%MyPath%..\..\Workshops\FileTestSuite
 
 %MyDrv%
 cd %MyPath%\bin
