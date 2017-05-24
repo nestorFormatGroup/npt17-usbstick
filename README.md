@@ -3,6 +3,13 @@ USB-Stick für den nestor-Praktikertag 2017 in Kiel
 
 (WIP)
 
+nestor AG Formaterkennung
+-------------------------
+Die nestor AG Formaterkennung hat sich 2014 gegründet. Ca. ein dutzend Institutionen aus Deutschland und der Schweiz arbeiten in der AG mit. 
+
+Der Workshop am 29. Juni 2017 am Tag direkt nach dem nestor Praktikertag findet der erste Workshop der AG statt.
+
+
 Installation 
 ------------
 
