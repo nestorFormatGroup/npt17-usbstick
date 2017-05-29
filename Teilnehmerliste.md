@@ -28,4 +28,5 @@ strathmann@sub.uni-goettingen.de;
 f.wirsing@landeshauptarchiv.de;
 m.strassenburg@landeshauptarchiv.de;
 Marcel.Werner@lav.nrw.de;
-angela.gastl@library.ethz.ch
+angela.gastl@library.ethz.ch;
+michael.tobegen@bkm.hamburg.de
