@@ -1,0 +1,58 @@
+[ExifTool]      ExifTool Version Number         : 10.42
+[ExifTool]      Warning                         : Invalid size (3523215362) for IFD0 tag 0x0128
+[ExifTool]      Warning                         : Bad format (134) for IFD0 entry 15
+[ExifTool]      Warning                         : XMP format error (no closing tag for rdf:RDF)
+[ExifTool]      Warning                         : [minor] Non-standard IFD0 tag 0x8649 PhotoshopSettings
+[ExifTool]      Warning                         : [minor] Non-standard IPTC at TIFF-IFD0-Photoshop-IPTC
+[ExifTool]      Warning                         : Bad Photoshop IRB resource "8BI\xdf"
+[ExifTool]      Warning                         : Invalid offset for IFD0 tag 0x8769
+[ExifTool]      Warning                         : [minor] Non-standard IFD0 tag 0x0873 Exif_0x0873
+[ExifTool]      Warning                         : [minor] Non-standard IFD0 tag 0x935c ImageSourceData
+[ExifTool]      Warning                         : Invalid value for IFD0 tag 0x0103 Compression
+[System]        File Name                       : test.tif
+[System]        Directory                       : .
+[System]        File Size                       : 34 kB
+[System]        File Modification Date/Time     : 2016:09:19 08:34:35+02:00
+[System]        File Access Date/Time           : 2017:06:08 10:24:52+02:00
+[System]        File Creation Date/Time         : 2017:06:08 10:24:52+02:00
+[System]        File Permissions                : rw-rw-rw-
+[File]          File Type                       : TIFF
+[File]          File Type Extension             : tif
+[File]          MIME Type                       : image/tiff
+[File]          Exif Byte Order                 : Big-endian (Motorola, MM)
+[File]          Current IPTC Digest             : 3e7f8c9ef1c8b34dbf8730e5d105828e
+[IFD0]          Subfile Type                    : Full-resolution Image
+[IFD0]          Image Width                     : 17
+[IFD0]          Image Height                    : 17
+[IFD0]          Bits Per Sample                 : 8 8 8 8
+[IFD0]          Compression                     : LZW
+[IFD0]          Photometric Interpretation      : RGB
+[IFD0]          Strip Offsets                   : 29048
+[IFD0]          Orientation                     : Horizontal (normal)
+[IFD0]          Samples Per Pixel               : 4
+[IFD0]          Rows Per Strip                  : 17
+[IFD0]          Strip Byte Counts               : 546
+[IFD0]          X Resolution                    : 72.009
+[IFD0]          Y Resolution                    : 110.002921
+[IFD0]          Planar Configuration            : Chunky
+[IFD0]          Modify Date                     : 2008W06:13 10:53:40
+[IFD0]          Extra Samples                   : Unassociated Alpha
+[IFD0]          Extra Samples                   : Associated Alpha
+[IFD0]          Exif 0x0873                     : ..appl.mntrRGB XYZ .Ø.....acspAPPL[...]
+[IFD0]          Image Source Data               : (Binary data 5628 bytes, use -b option to extract)
+[XMP-x]         XMP Toolkit                     : Adobe XMP Core 4.1-c036 I6.276720, Mon Feb 1e 2007 22:13:43
+[IPTC]          Application Record Version      : 0
+[Photoshop]     IPTC Digest                     : e8f15cf32fc118a1a27b67adc564d5ba
+[Photoshop]     XML Data                        : (Binary data 6160 bytes, use -b option to extract)
+[Photoshop]     X Resolution                    : 72.01
+[Photoshop]     Displayed Units X               : inches
+[Photoshop]     Y Resolution                    : 72.01
+[Photoshop]     Displayed Units Y               : inches
+[Photoshop]     Print Style                     : Centered
+[Photoshop]     Print Position                  : 0 0
+[Photoshop]     Print Scale                     : 1
+[Photoshop]     Alpha Channels Names            : Transparency
+[Photoshop]     Unicode Alpha Names             : .Transparency
+[Photoshop]     Display Info                    : ÿÿd.
+[Composite]     Image Size                      : 17x17
+[Composite]     Megapixels                      : 0.000289
