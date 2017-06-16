@@ -1,0 +1,822 @@
+Jhove (Rel. 1.16.3-RC1, 2017-03-14)
+ Date: 2017-06-16 10:25:49 MESZ
+ RepresentationInformation: dp576_PDFA.pdf
+  ReportingModule: PDF-hul, Rel. 1.8 (2017-03-14)
+  LastModified: 2017-06-02 12:02:23 MESZ
+  Size: 615193
+  Format: PDF
+  Version: 1.4
+  Status: Well-Formed and valid
+  SignatureMatches:
+   PDF-hul
+  MIMEtype: application/pdf
+  Profile: Linearized PDF
+  PDFMetadata: 
+   Objects: 1622
+   FreeObjects: 1
+   IncrementalUpdates: 1
+   DocumentCatalog: 
+    PageLayout: SinglePage
+    PageMode: UseNone
+    Outlines: 
+     Item: 
+      Title: titel 576.pdf
+      Children: 
+       Item: 
+        Title: Hilmar Schneider
+        Destination: 1
+     Item: 
+      Title: liste576.pdf
+      Children: 
+       Item: 
+        Title: Date
+        Destination: 1
+        Children: 
+         Item: 
+          Title: 
+          Destination: 1
+          Children: 
+           Item: 
+            Title: 
+            Destination: 1
+            Children: 
+             Item: 
+              Title: 
+              Destination: 1
+              Children: 
+               Item: 
+                Title: 
+                Destination: 1
+                Children: 
+                 Item: 
+                  Title: 
+                  Destination: 1
+                  Children: 
+                   Item: 
+                    Title: J. T. Addison
+                    Destination: 1
+                   Item: 
+                    Title: W. S. Siebert
+                    Destination: 1
+                   Item: 
+                    Title: J. D. Brown
+                    Destination: 1
+       Item: 
+        Title: J. S. Earle
+        Destination: 1
+        Children: 
+         Item: 
+          Title: 
+          Destination: 1
+          Children: 
+           Item: 
+            Title: 
+            Destination: 1
+            Children: 
+             Item: 
+              Title: 
+              Destination: 1
+              Children: 
+               Item: 
+                Title: 
+                Destination: 1
+                Children: 
+                 Item: 
+                  Title: 
+                  Destination: 1
+                  Children: 
+                   Item: 
+                    Title: H. L. van Kranenburg
+                    Destination: 1
+                   Item: 
+                    Title: F. C. Palm
+                    Destination: 1
+                   Item: 
+                    Title: R. Hujer
+                    Destination: 1
+                   Item: 
+                    Title: M. Caliendo
+                    Destination: 1
+                   Item: 
+                    Title: H. Lehmann
+                    Destination: 1
+                   Item: 
+                    Title: K. Phillips
+                    Destination: 1
+                   Item: 
+                    Title: J. Wadsworth
+                    Destination: 1
+                   Item: 
+                    Title: H. O. Duleep
+                    Destination: 1
+                   Item: 
+                    Title: D. J. Dowhan
+                    Destination: 1
+                   Item: 
+                    Title: J. Haltiwanger
+                    Destination: 1
+                   Item: 
+                    Title: M. Vodopivec
+                    Destination: 1
+                   Item: 
+                    Title: O. Ashenfelter
+                    Destination: 1
+         Item: 
+          Title: Using Mandated Speed Limits to Measure the Value of a Statistical Life
+          Destination: 1
+          Children: 
+           Item: 
+            Title: 
+            Destination: 1
+            Children: 
+             Item: 
+              Title: 
+              Destination: 1
+              Children: 
+               Item: 
+                Title: M. Fertig
+                Destination: 1
+                Children: 
+                 Item: 
+                  Title: 
+                  Destination: 1
+                  Children: 
+                   Item: 
+                    Title: H. Schneider
+                    Destination: 1
+   Info: 
+    Title: optimal_policy_draft01.dvi
+    Creator: dvips(k) 5.86 Copyright 1999 Radical Eye Software
+    Producer: Acrobat Distiller 5.0 (Windows)
+    CreationDate: Wed Aug 21 15:18:38 CEST 2002
+    ModDate: Fri Jun 02 12:02:23 CEST 2017
+   ID: 0xa0d9903c05d31e94401a702c31d65230, 0xdca453241d5db14eb7eebb7a02c797ff
+   Filters: 
+    FilterPipeline: FlateDecode
+    FilterPipeline: CCITTFaxDecode
+   Images: 
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+    Image: 
+     NisoImageMetadata: 
+      CompressionScheme: CCITT Group 4
+      ImageWidth: 1
+      ImageHeight: 1
+      BitsPerSample: 1
+      BitsPerSampleUnit: integer
+     ImageMask: true
+   Fonts: 
+    Type0: 
+     Font: 
+      BaseFont: Arial3
+      Encoding: Identity-H
+      ToUnicode: true
+    Type1: 
+     Font: 
+      BaseFont: BPFKBJ+TTA9o00
+      FontSubset: true
+      FirstChar: 1
+      LastChar: 2
+      FontDescriptor: 
+       FontName: BPFKBJ+TTA9o00
+       Flags: Symbolic, Italic
+       FontBBox: 0, 0, 432, 534
+       FontFile3: true
+      EncodingDictionary: 
+       Differences: true
+     Font: 
+      BaseFont: BPFLAM+TTADo00
+      FontSubset: true
+      FirstChar: 1
+      LastChar: 2
+      FontDescriptor: 
+       FontName: BPFLAM+TTADo00
+       Flags: Symbolic, Italic
+       FontBBox: 0, 0, 426, 519
+       FontFile3: true
+      EncodingDictionary: 
+       Differences: true
+    TrueType: 
+     Font: 
+      BaseFont: BPFIHJ+Arial,Bold
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 150
+      FontDescriptor: 
+       FontName: BPFIHJ+Arial,Bold
+       Flags: Nonsymbolic
+       FontBBox: -167, -376, 1075, 1048
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: MPVMKB+TrebuchetMS
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 122
+      FontDescriptor: 
+       FontName: MPVMKB+TrebuchetMS
+       Flags: Nonsymbolic
+       FontBBox: -86, -262, 958, 939
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: NPKUJD+TrebuchetMS,Bold
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 150
+      FontDescriptor: 
+       FontName: NPKUJD+TrebuchetMS,Bold
+       Flags: Nonsymbolic
+       FontBBox: -101, -270, 1010, 980
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: BPFIKP+Arial,Italic
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 121
+      FontDescriptor: 
+       FontName: BPFIKP+Arial,Italic
+       Flags: Nonsymbolic, Italic
+       FontBBox: -262, -325, 1082, 1025
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: BPFIJJ+Arial
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 228
+      FontDescriptor: 
+       FontName: BPFIJJ+Arial
+       Flags: Nonsymbolic
+       FontBBox: -222, -325, 1072, 1037
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: Arial,Bold2
+      FirstChar: 32
+      LastChar: 117
+      FontDescriptor: 
+       FontName: Arial,Bold2
+       Flags: Nonsymbolic
+       FontBBox: -167, -376, 1075, 1048
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: Arial2
+      FirstChar: 32
+      LastChar: 150
+      FontDescriptor: 
+       FontName: Arial2
+       Flags: Nonsymbolic
+       FontBBox: -222, -325, 1072, 1037
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: BPFKON+TimesNewRoman
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 32
+      FontDescriptor: 
+       FontName: BPFKON+TimesNewRoman
+       Flags: Serif, Nonsymbolic
+       FontBBox: -167, -307, 1009, 1007
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: Arial,Italic2
+      FirstChar: 32
+      LastChar: 32
+      FontDescriptor: 
+       FontName: Arial,Italic2
+       Flags: Nonsymbolic, Italic
+       FontBBox: -262, -325, 1082, 1025
+       FontFile2: true
+      Encoding: WinAnsiEncoding
+    Type3: 
+     Font: 
+      Name: T21
+      FirstChar: 1
+      LastChar: 2
+      FontBBox: 2, -19, 94, 62
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T20
+      FirstChar: 1
+      LastChar: 28
+      FontBBox: 2, -2, 74, 64
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T17
+      FirstChar: 1
+      LastChar: 40
+      FontBBox: -6, -20, 94, 64
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T12
+      FirstChar: 1
+      LastChar: 7
+      FontBBox: 0, -21, 71, 71
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T1
+      FirstChar: 1
+      LastChar: 40
+      FontBBox: 2, -30, 146, 101
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T6
+      FirstChar: 1
+      LastChar: 10
+      FontBBox: 2, -1, 33, 45
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T8
+      FirstChar: 1
+      LastChar: 10
+      FontBBox: 2, -1, 30, 39
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T14
+      FirstChar: 1
+      LastChar: 3
+      FontBBox: 2, -1, 52, 47
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T13
+      FirstChar: 1
+      LastChar: 27
+      FontBBox: -1, -21, 101, 70
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      FirstChar: 1
+      LastChar: 198
+      FontBBox: -5, -23, 90, 68
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+      ToUnicode: true
+     Font: 
+      Name: T2
+      FirstChar: 1
+      LastChar: 52
+      FontBBox: 0, -25, 101, 75
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T4
+      FirstChar: 1
+      LastChar: 63
+      FontBBox: 0, -20, 72, 62
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T15
+      FirstChar: 1
+      LastChar: 1
+      FontBBox: 6, 15, 48, 18
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T5
+      FirstChar: 1
+      LastChar: 65
+      FontBBox: 2, -25, 105, 75
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T7
+      FirstChar: 1
+      LastChar: 67
+      FontBBox: -3, -25, 108, 75
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T16
+      FirstChar: 1
+      LastChar: 1
+      FontBBox: 2, 2, 14, 28
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T9
+      FirstChar: 1
+      LastChar: 30
+      FontBBox: 2, -20, 63, 62
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T10
+      FirstChar: 1
+      LastChar: 30
+      FontBBox: 2, -24, 123, 84
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      FirstChar: 1
+      LastChar: 198
+      FontBBox: -5, -25, 97, 75
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+      ToUnicode: true
+     Font: 
+      Name: T11
+      FirstChar: 1
+      LastChar: 22
+      FontBBox: 4, -17, 67, 60
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+     Font: 
+      Name: T19
+      FirstChar: 1
+      LastChar: 28
+      FontBBox: -3, -19, 101, 64
+      EncodingDictionary: 
+       Differences: true
+      Resources: true
+    CIDFontType2: 
+     Font: 
+      BaseFont: Arial3
+      CIDSystemInfo: 
+       Registry: Adobe
+       Registry: Identity
+       Supplement: 0
+      FontDescriptor: 
+       FontName: Arial3
+       Flags: Symbolic
+       FontBBox: -222, -325, 1072, 1037
+       FontFile2: true
+   XMP: <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 84.159810, 2016/09/10-02:41:30        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"
+            xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
+            xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
+            xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#">
+         <pdf:Producer>Acrobat Distiller 5.0 (Windows)</pdf:Producer>
+         <xmp:CreateDate>2002-08-21T13:18:38Z</xmp:CreateDate>
+         <xmp:ModifyDate>2017-06-02T12:02:23+02:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2017-06-02T12:02:23+02:00</xmp:MetadataDate>
+         <xmp:CreatorTool>dvips(k) 5.86 Copyright 1999 Radical Eye Software</xmp:CreatorTool>
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">optimal_policy_draft01.dvi</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmpMM:DocumentID>uuid:bacdd57d-a5ea-11b2-0a00-000000000000</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:495ff174-88aa-4e5f-b551-20e02084b3ea</xmpMM:InstanceID>
+         <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
+         <xmpMM:VersionID>1</xmpMM:VersionID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:instanceID>uuid:bacdd57d-a5ea-11b2-0a00-000000000000</stEvt:instanceID>
+                  <stEvt:parameters>converted to PDF/A-1b</stEvt:parameters>
+                  <stEvt:softwareAgent>pdfaPilot</stEvt:softwareAgent>
+                  <stEvt:when>2017-06-02T11:11:15+02:00</stEvt:when>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <pdfaid:part>1</pdfaid:part>
+         <pdfaid:conformance>B</pdfaid:conformance>
+         <pdfaExtension:schemas>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://ns.adobe.com/pdf/1.3/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>pdf</pdfaSchema:prefix>
+                  <pdfaSchema:schema>Adobe PDF Schema</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>A name object indicating whether the document has been modified to include trapping information</pdfaProperty:description>
+                           <pdfaProperty:name>Trapped</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
+                  <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>UUID based identifier for specific incarnation of a document</pdfaProperty:description>
+                           <pdfaProperty:name>InstanceID</pdfaProperty:name>
+                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>The common identifier for all versions and renditions of a document.</pdfaProperty:description>
+                           <pdfaProperty:name>OriginalDocumentID</pdfaProperty:name>
+                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://www.aiim.org/pdfa/ns/id/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>pdfaid</pdfaSchema:prefix>
+                  <pdfaSchema:schema>PDF/A ID Schema</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Part of PDF/A standard</pdfaProperty:description>
+                           <pdfaProperty:name>part</pdfaProperty:name>
+                           <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Amendment of PDF/A standard</pdfaProperty:description>
+                           <pdfaProperty:name>amd</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Conformance level of PDF/A standard</pdfaProperty:description>
+                           <pdfaProperty:name>conformance</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+            </rdf:Bag>
+         </pdfaExtension:schemas>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+   Pages: 
+    Page: 
+     Sequence: 1
+    Page: 
+     Sequence: 2
+     Annotations: 
+      Annotation: 
+       Subtype: Link
+       Rect: 286, 375, 338, 388
+       Flags: Print
+       AppearanceDictionary: true
+      Annotation: 
+       Subtype: Link
+       Rect: 292, 74, 352, 90
+       Flags: Print
+       AppearanceDictionary: true
+    Page: 
+     Sequence: 3
+     Annotations: 
+      Annotation: 
+       Subtype: Link
+       Rect: 441, 528, 449, 540
+       Flags: Print
+       AppearanceDictionary: true
+       Destination: 1
+      Annotation: 
+       Subtype: Link
+       Rect: 104, 126, 199, 141
+       Flags: Print
+       AppearanceDictionary: true
+    Page: 
+     Sequence: 4
+    Page: 
+     Sequence: 5
+    Page: 
+     Sequence: 6
+    Page: 
+     Sequence: 7
+    Page: 
+     Sequence: 8
+    Page: 
+     Sequence: 9
+    Page: 
+     Sequence: 10
+    Page: 
+     Sequence: 11
+    Page: 
+     Sequence: 12
+    Page: 
+     Sequence: 13
+    Page: 
+     Sequence: 14
+    Page: 
+     Sequence: 15
+    Page: 
+     Sequence: 16
+    Page: 
+     Sequence: 17
+    Page: 
+     Sequence: 18
+    Page: 
+     Sequence: 19
+    Page: 
+     Sequence: 20
+    Page: 
+     Sequence: 21
+    Page: 
+     Sequence: 22
+    Page: 
+     Sequence: 23
+    Page: 
+     Sequence: 24
+    Page: 
+     Sequence: 25
+    Page: 
+     Sequence: 26
+    Page: 
+     Sequence: 27
+    Page: 
+     Sequence: 28
+    Page: 
+     Sequence: 29
+    Page: 
+     Sequence: 30
+    Page: 
+     Sequence: 31
+    Page: 
+     Sequence: 32
+    Page: 
+     Sequence: 33
+    Page: 
+     Sequence: 34
+    Page: 
+     Sequence: 35
+    Page: 
+     Sequence: 36
+     Annotations: 
+      Annotation: 
+       Subtype: Link
+       Rect: 445, 58, 499, 72
+       Flags: Print
+       AppearanceDictionary: true
