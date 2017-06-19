@@ -1,0 +1,6 @@
+filename,filesize,modified,errors,md5,namespace,id,format,version,mime,basis,warning
+/home/bzfklind/sf-test/objects/00000050.jpg,2569072,2017-06-19T14:27:35+02:00,,adfc886bfacb15eab8c9f2668be8df81,pronom,fmt/43,JPEG File Interchange Format,1.01,image/jpeg,extension match jpg; byte match at [[[0 14]] [[2569070 2]]],
+/home/bzfklind/sf-test/objects/00000051.jpg,2302048,2017-06-19T14:27:35+02:00,,ec8c7b12aff3c1e0b3ca4bf45de2037e,pronom,fmt/43,JPEG File Interchange Format,1.01,image/jpeg,extension match jpg; byte match at [[[0 14]] [[2302046 2]]],
+/home/bzfklind/sf-test/objects/00000052.jpg,2259986,2017-06-19T14:27:35+02:00,,456954a6d751831cfda52b4832a7dfbf,pronom,fmt/43,JPEG File Interchange Format,1.01,image/jpeg,extension match jpg; byte match at [[[0 14]] [[2259984 2]]],
+/home/bzfklind/sf-test/objects/00000053.jpg,2254190,2017-06-19T14:27:35+02:00,,c77a5cc91de4db07b7f5a1b5399c0eab,pronom,fmt/43,JPEG File Interchange Format,1.01,image/jpeg,extension match jpg; byte match at [[[0 14]] [[2254188 2]]],
+/home/bzfklind/sf-test/objects/73-157_banana.tif,158644804,2017-06-19T14:27:52+02:00,,340e5aa7b6a1ed443a5d58819e2ed8bf,pronom,fmt/353,Tagged Image File Format,,image/tiff,"extension match tif; byte match at 0, 4 (signature 1/2)",
